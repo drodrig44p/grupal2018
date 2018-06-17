@@ -7,7 +7,7 @@ library(unmarked)
 
 
 ## Leer los datos
-juvenil <- read.csv("juvenil.csv", header = FALSE, row.names = NULL)
+juvenil <- read.csv("C:/localRepos/grupal2018/Informe/juvenil.csv", header = FALSE, row.names = NULL)
 juvenil <- as.matrix(juvenil)
 
 
@@ -29,7 +29,7 @@ re <- ranef(m1)
 
 
 ## Leer los datos Subadultos
-Subadulto <- read.csv("C:/localforks/grupal2018/informe/Subadulto.csv", header = FALSE, row.names = NULL)
+Subadulto <- read.csv("C:/localRepos/grupal2018/Informe/Subadulto.csv", header = FALSE, row.names = NULL)
 Subadulto <- as.matrix(Subadulto)
 
 
@@ -55,7 +55,7 @@ VB<-function(Li,k,t,t0){
   VB<-Li*(1-exp(-k*(t-t0)))
   return(VB)
 }
-curve(expr = VB(Li=183.2,k=0.3706,t0=-0.2,t=x),from=0, to=15)
+#curve(expr = VB(Li=183.2,k=0.3706,t0=-0.2,t=x),from=0, to=15)
 
 #-----Matrices que ocupa popbio-----
 
@@ -193,11 +193,11 @@ transStochMat <- setRefClass("transStochMat",
        assign("op", par())
        original <- sum(n0*incluirEtapa)
        iters <- rowSums(p%*%incluirEtapa)
-       xLabThis <- paste0("NÃºmero de individuos en t = ",t)
+       xLabThis <- paste0("Número de individuos en t = ",t)
        
        hist(
          iters,
-         main = "TamaÃ±o de poblaciÃ³n",
+         main = "Tamaño de población",
          xlab = xLabThis,
          ylab = "Frecuencia",
          lwd = 2, las = 1,
@@ -222,7 +222,7 @@ transStochMat <- setRefClass("transStochMat",
        matplot(
          probExt,
          xlab = "Tiempo",
-         ylab = "Probabilidad de quasi-extinciÃ³n",
+         ylab = "Probabilidad de quasi-extinción",
          type = "l",
          lty = 1,
          col = rainbow(10)
