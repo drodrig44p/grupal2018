@@ -1,0 +1,84 @@
+---
+title: "Manual de gestión de datos para estimar abundancia de cambute"
+author:
+- Author One^[University of Somewhere]
+- Author Two^[University of Nowhere]
+subtitle: "Curso Ecología de Poblaciones"
+date: "`r format(Sys.Date(), '%d de %B, %Y')`"
+papersize: letter
+fontsize: 12pt
+documentclass: article
+classoption: twoside, openright
+lang: "es-419"
+secnumdepth: 1
+thanks: Thanks to someone
+output: 
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    fig_caption: yes
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    keep_tex: yes
+mainfont: Times New Roman
+mathfont: Times New Roman
+sansfont: Arial
+geometry: "top=2.5cm, bottom=2.5cm, left=3cm, right=3cm"
+lof: false
+lot: true
+header-includes:
+- \usepackage{makeidx}
+- \makeindex
+- \usepackage{ragged2e}
+- \RaggedRight
+- \usepackage{cancel}
+- \usepackage{placeins}
+- \usepackage{siunitx}
+- \sisetup{detect-all = true, detect-family=true} 
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \counterwithin{figure}{section}
+- \counterwithin{table}{section}
+- \onehalfspacing
+- \newtheorem{theorem}{Teorema}
+- \newtheorem{algorithm}{Algoritmo}
+- \newtheorem{axiom}{Axioma}
+- \newtheorem{definition}{Definición}
+- \newtheorem{example}{Ejemplo}
+- \newtheorem{exercise}{Ejercicio}
+- \newtheorem{lemma}{Lemma}
+- \newtheorem{proposition}{Proposición}
+- \newtheorem{remark}{Remarca}
+- \newtheorem{solution}{Solución\;\thesection\,.}
+- \newtheorem{summary}{Resumen}
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \lhead{APA Template}
+- \rhead{D. Martinez}
+- \setlength\parindent{24pt}
+urlcolor: blue
+---
+
+# Planeamiento
+
+# Recolección de datos
+
+# Aseguramiento de calidad
+
+# Descripción
+
+# Protección y preservación
+
+# Descubrimiento
+
+# Integración
+
+# Análisis
+
+
+\begingroup
+\small
+\printindex
+\vfill
+\endgroup
+
