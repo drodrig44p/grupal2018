@@ -84,13 +84,15 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 
 SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
 
+DESARROLLAR solo la sección de estimación de abundancia.
+
+ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
+
 ##Área de estudio
 
 El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012].
 
-NO SE ENVIÓ LA FIGURA
-
-##Muestreo de Lobatus galeatus
+## Muestreo de Lobatus galeatus
 
  Se establecieron tres parcelas de \SI{10 x 10}{\metre}, a conveniencia en la zona intermareal durante la marea baja, preferiblemente en zonas donde haya pozas o agua estancada. Además en cada parcela se efectuó una búsqueda intensiva de individuos de *L. galeatus* por un tiempo determinado de \SI{20}{\minute}; así mismo se utilizó la técnica de búsqueda por buceo con tubo de respiración (según lo sugerido por @Arroyo-Mora1998). Posteriormente se recolectaron solamente los individuos vivos con el fin de realizar la biometría del largo total de la concha (medición con vernier, \SI{+-0.005}{\milli\metre}) de cada animal, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. Este procedimiento se replicó por tres veces mínimo, hasta que no se encuentren individuos vivos dentro del lapso de tiempo determinado a este proceso se le denomina remoción. 
 
@@ -98,6 +100,10 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
 
  
 ### Análisis de datos
+
+SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+
+DESARROLLAR solo la sección de estimación de abundancia.
 
 Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
 
@@ -129,6 +135,10 @@ Viabilidadcambute <-
 \FloatBarrier
 
 # Resultados
+
+SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+
+DESARROLLAR solo la sección de estimación de abundancia.
 
 Aquí se presentará la estimación de la probabilidad de extinción a 5 años para cada especie. También cualquier resultado que surge como paso intermedio para calcular la probabilidad de extinción.
 
@@ -177,13 +187,7 @@ Viabilidadcambute$plotExtProb()
 
 \FloatBarrier
 
-#   Discusión
 
-Los resultados muestran que la abundacia de *S.galeatus* en el RNVS Punta Mala es baja, al menos en la zona supralitoral. El metodo utilizado en este estudio permitió una deteccion similar en los doce cuadrantes, aunque los individuos registrados fueron pocos y correspondieron en su mayoría a la clase juvenil, no se puede ausgurar que en el sitio haya habido una alta extraccion de caracoles para la comercializacion, ya que los cambios drasticos en las condiciones ambientales que esta zona experimenta a llargo del dia, puede ser un factor que afecte la abundancia de caracoles vivos en las diferentes clases de edad. Por lo tanto es recomendable realizr un muestreo estratificado a diferentes profundidades.  
-
-En lo referente a la evaluación de viabilidad de la población dentro de cinco años, esta no presenta probabilidad de extinguirse en ese periodo. Pero esto no implica que esta población esté en óptimas condiciones, esto debido a que la densidad poblacional es muy baja siendo   de 0,02 individuos por metro cuadrado, en comparación con otras poblaciones en las que se han podido registrar de uno a dos individuos por metro cuadrado. Esta población a pesar de no presentar individuos reproductores, en los siguientes cinco años todos estos individuos registrados podrán reproducirse debido a que a partir de los 3,5 años de edad pueden reproducirse, sumado a la gran tasa reproductiva de esta especie podrían renovar a esta población, pero el problema de disponibilidad de alimento podría ser la misma limitante que impediría el establecimiento de nuevos individuos. Esta población fue representada en su mayoría por individuos juveniles, se sabe que para esta clase de edad existe un requerimiento de hábitat muy diferente al de los adultos, el cual debe ser de áreas con altas densidades de pastos marinos, estas funcionan como guarderías que les permite a los individuos jóvenes esconderse de potenciales depredadores y a la vez poder alimentarse del pasto marino. En el área de estudio la disponibilidad de este recurso fue muy escaso y de los pocos individuos registrados, la mayoría estaba asociado a las algas adheridas en las rocas.  A pesar de que en este estudio no se realizó una evaluación de la disponibilidad de alimento para el cambute, esta baja densidad puede ser la explicación principal del tamaño reducido de esta población. Una de las principales razones de la perdida de pastos marinos se debe a la presencia de contaminantes en el agua, pudiendo asociarse la presencia de algún químico o la alta concentración de sedimentos con la muerte de estos organismos, esta población se encuentra relativamente cerca de la desembocadura del rio Tárcoles, siendo este uno de los cuerpos de agua más contaminados de Latinoamérica, que podria estar afectando  a esta poblacion. 
-
-\FloatBarrier
 
 # Bibliografía {-}
 
