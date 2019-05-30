@@ -88,9 +88,9 @@ DESARROLLAR solo la sección de estimación de abundancia.
 
 ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
 
-##Área de estudio
+## Área de estudio
 
-El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012].
+El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012]. 
 
 ## Muestreo de Lobatus galeatus
 
