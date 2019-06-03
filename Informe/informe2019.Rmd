@@ -3,7 +3,7 @@ title: "Plantilla basada en pdf_document2, de bookdown, y normas APA"
 author:
 - Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 ^[Licenciatura de Manejo de Recursos Naturales, Universidad Nacinal]
-- 
+
 subtitle: "Ecología de Poblaciones"
 date: "`r format(Sys.Date(), '%d de %B, %Y')`"
 papersize: letter
