@@ -84,9 +84,15 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 
 SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
 
-DESARROLLAR solo la sección de estimación de abundancia.
+## Estimación de abundancia
 
-ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
+
+
+## Ciclo de gestión de datos
+
+Los datos recopilados en campo fueron entrados en una base datos conformada por tres hojas relacionadas entre sí. El valor de unión entre las hojas fue la fecha y el número de parcela. Las hojas permitieron manejar los datos de: 1) fecha, 2) cuadrante y 3) longitud de los individuos encontrados, respectivamente.
+
+La base de datos fue luego accesada para el análsis con el lenguaje estadístico R <!--[@R-Cran]--> a través del uso del paquete *sqldf* [@grothendieck2017package]. 
 
 ## Área de estudio
 
