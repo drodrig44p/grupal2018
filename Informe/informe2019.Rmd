@@ -94,10 +94,11 @@ El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa de
 
 ## Muestreo de Lobatus galeatus
 
- Se establecieron tres parcelas de \SI{10 x 10}{\metre}, a conveniencia en la zona intermareal durante la marea baja, preferiblemente en zonas donde haya pozas o agua estancada. Además en cada parcela se efectuó una búsqueda intensiva de individuos de *L. galeatus* por un tiempo determinado de \SI{20}{\minute}; así mismo se utilizó la técnica de búsqueda por buceo con tubo de respiración (según lo sugerido por @Arroyo-Mora1998). Posteriormente se recolectaron solamente los individuos vivos con el fin de realizar la biometría del largo total de la concha (medición con vernier, \SI{+-0.005}{\milli\metre}) de cada animal, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. Este procedimiento se replicó por tres veces mínimo, hasta que no se encuentren individuos vivos dentro del lapso de tiempo determinado a este proceso se le denomina remoción. 
+Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
 
-Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asigna a cada individuo una clase según la edad, por ejemplo para juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se logró separar cada organismo recolectado en las distintas clases y  a partir de los datos obtenidos se construyó una tabla de vida.
+En cada parcela se hizo una búsqueda intensiva de L. galeatus mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}), una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
 
+Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\mi{\milli\metre), subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado y a partir de los datos obtenidos se construyó una tabla de vida.
  
 ### Análisis de datos
 
