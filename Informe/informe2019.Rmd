@@ -80,9 +80,9 @@ Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cad
 Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
-#Metodología
+# Metodología
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+## Estimación de abundancia y Análisis de Viabilidad de Población
 
 ## Estimación de abundancia
 
@@ -98,6 +98,7 @@ La base de datos fue luego accesada para el análsis con el lenguaje estadístic
 
 Se visitó el sitio de muestreo del cambute, los días del 15 al 17 de marzo de 2019; el área de estudio se encuentra en el Refugio Nacional de Vida Silvestre Playa Hermosa – Punta Mala, este refugio nacional de vida silvestre pertenece al Área de Conservación Pacífico Central, se encuentra ubicado específicamente en el cantón de Garabito en la provincia de Puntarenas, coordenadas geográficas: 9°31’04’’N y 84°32’25’’W, además cuenta con una precipitación de 3 780 mm al año y una temperatura máxima de 31°C y una mínima de  de 23°C [@alvarado2007migracion]; [@vargas2014relacion].
 
+## Área de estudio
 El Refugio Nacional de Vida Silvestre se crea mediante el mediante Decreto Ejecutivo N° 27210, del 16 de abril de 1998, y por medio del decreto N° 33044, del 03 de mayo del 2002 se amplía el área del refugio. Además, cuenta con diversidad de ecosistemas, cómo lo son: desembocadura de río, manglares, esteros, estuarios entre muchos otros [@herrera2010propuesta].
 
 El estudio se realizó en una de las plataformas rocosa que se encuentra dentro del Refigio Nacional de Vida Silvestre, estas plataformas se extiende en dirección al océano, formando un área de aproximadamente 4 km de largo, esta zona rocosa alberga diferentes formas de vida como lo son los moluscos [@azofeifa2018influencia]. 
@@ -112,7 +113,8 @@ Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo
  
 ### Análisis de datos
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+## Estimación de abundancia y Análisis de Viabilidad de Población
+
 
 DESARROLLAR solo la sección de estimación de abundancia.
 
