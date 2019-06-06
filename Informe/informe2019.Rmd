@@ -68,6 +68,7 @@ source("C:/localRepos/grupal2018/Informe/vbgf.R")
 
 # Introducción
 **1. Ecosistemas Rocosos**
+Las áreas protegidas son sitios importantes para la conservación y protección de ambientes naturales y especies que habitan en ella. El Refugio de Vida Silvestre Punta Mala, es un sitio donde protege playas, zonas de bosque y áreas geológicas importantes. Como lo son los ecosistemas rocosos que poseen características biológicas, ecológicas y paisajísticas importantes (Salas, Ross & Arias, 2012). Son áreas que se encuentran en constante exposición al sol y emersión del mar, según las mareas que presente. Además son sitios con una variación de parámetros como la acción de las olas, dinámica de sedimentos, temperatura, salinidad, etc. (Paniagua, 2015).  Los ecosistemas rocosos intermareales son sitios que contienen comunidades con altos niveles de diversidad y dinámica que han sido estudiados a lo largo del tiempo. Al ser especies accesibles son utilizados como modelos ecológicos para observar y estudiar patrones y procesos a diferentes escalas (Peña, 2011). 
 
 **2.** ***Lobatus galeatus***
 En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@mora1998estructura].
@@ -110,89 +111,16 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
  
 ### Análisis de datos
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
 
 Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
-
-
-```{r}
-umf1 <- unmarkedFrameGMM(y = juvenil,
-                         numPrimary = 1,
-                         type = "removal")
-
-umf2 <- unmarkedFrameGMM(y = Subadulto,
-                         numPrimary = 1,
-                         type = "removal")
-```
-
-
-Por otra parte, a partir del conjunto de datos recolectados de la longitud de la concha para cada clase de edad, se utilizó la función de crecimiento de Von Bertalanffy para estimar la probabilidad de madurez sexual de cada individuo. Por último se calculó la matriz de transición proyectada a 5 años, que permito estimar la probabilidad de extinción de la especie en ese sitio al final de ese periódo.A continuación la funcion de Von Bertalanffy y la matriz de transición respectivamente.
-
-```{r}
-Viabilidadcambute <-
-  transStochMat$new (
-  matriz = Matrices(500),
-  n0 = n,
-  t = NT,
-  umbral = Nx,
-  incluirEtapa = c(0, 1, 1)
-  )
-```
 
 \FloatBarrier
 
 # Resultados
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
-
-Aquí se presentará la estimación de la probabilidad de extinción a 5 años para cada especie. También cualquier resultado que surge como paso intermedio para calcular la probabilidad de extinción.
-
-Durante los muestreos en los 12 sitios de estudio no se encontraron con individuos adultos, los individuos con talla de subadulto fueron dos individuos y estados inmaduros fueron los mas comunes de encontrar con un total de 21 individuos. en la figura 1 muestra el calculo de las probabilidades de presencia por sitio de muestreo para los individuos inmaduros y en la figura 2 se muestran las probabilidades de presencia por sitio de individuos juveniles, para el calculo de adultos no se pudo realizar por falta de datos. 
-
-nT:(21,1,0)
-
-```{r, fig.cap='probabilidades de presencia de *S. galeatus* juveniles en las parcelas escogidas aleatoriamente.'}
-
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-
-```
-
 \FloatBarrier
 
-```{r, fig.cap='probabilidad de presencia de individuos subadultos de *S. galeatus* en las parcelas seleccionadas para el estudio.'}
 
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-```
-
-\FloatBarrier
-
-Mediante la funcion de crecimiento de von bertalanffy pudimos determinar que los organismos de *S. galeatus* tardan aproximadamente 5 años en crecer hasta tener la talla adecuada para la madurez sexual (figura 3)
-
-```{r, fig.cap= 'funcion de crecimiento de von Bertalanffy de *S. gigas*'}
-
-curve(expr = VB(Li=183.2,k=0.3706,t0=-0.2,t=x),from=0, to=15)
-```
-
-\FloatBarrier
-
-posteriormente el calculo de la matriz de transicion nos indica que la poblacion goza de buena salud, sin embargo cabe recalcar que en este estudio no se tomo en consideracion la mortalidad, por esto se asume que todos los individuos juveniles pasan a sub adultos y de subadultos a adultos sin haber bajas en sus individuos. 
-
-```{r, fig.cap='Viabilidad de la población de cambute a 5 años'}
-
-Viabilidadcambute$plotN()  
-```
-
-\FloatBarrier
-
-la probabilidad de extinción para los individuos de *S. gigas* en 5 años es de 0 individuos, indicando que en los proximos 5 años la poblacion de cambute seguirá en el sitio.
-
-```{r, fig.cap='Probabilidad de extinción de la población de cambute a 5 años'}
-Viabilidadcambute$plotExtProb()
-```
 
 \FloatBarrier
 
