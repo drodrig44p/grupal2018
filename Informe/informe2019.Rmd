@@ -80,15 +80,15 @@ Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cad
 Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
-#Metodología
+# Metodología
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+## Estimación de abundancia y Análisis de Viabilidad de Población
 
 DESARROLLAR solo la sección de estimación de abundancia.
 
 ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
 
-##Área de estudio
+## Área de estudio
 
 El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012].
 
@@ -101,7 +101,8 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
  
 ### Análisis de datos
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
+## Estimación de abundancia y Análisis de Viabilidad de Población
+
 
 DESARROLLAR solo la sección de estimación de abundancia.
 
