@@ -84,20 +84,32 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 
 ## Estimación de abundancia y Análisis de Viabilidad de Población
 
-DESARROLLAR solo la sección de estimación de abundancia.
+## Estimación de abundancia
 
-ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
+
+
+## Ciclo de gestión de datos
+
+Los datos recopilados en campo fueron entrados en una base datos conformada por tres hojas relacionadas entre sí. El valor de unión entre las hojas fue la fecha y el número de parcela. Las hojas permitieron manejar los datos de: 1) fecha, 2) cuadrante y 3) longitud de los individuos encontrados, respectivamente.
+
+La base de datos fue luego accesada para el análsis con el lenguaje estadístico R <!--[@R-Cran]--> a través del uso del paquete *sqldf* [@grothendieck2017package]. 
 
 ## Área de estudio
 
-El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012].
+Se visitó el sitio de muestreo del cambute, los días del 15 al 17 de marzo de 2019; el área de estudio se encuentra en el Refugio Nacional de Vida Silvestre Playa Hermosa – Punta Mala, este refugio nacional de vida silvestre pertenece al Área de Conservación Pacífico Central, se encuentra ubicado específicamente en el cantón de Garabito en la provincia de Puntarenas, coordenadas geográficas: 9°31’04’’N y 84°32’25’’W, además cuenta con una precipitación de 3 780 mm al año y una temperatura máxima de 31°C y una mínima de  de 23°C [@alvarado2007migracion]; [@vargas2014relacion].
+
+## Área de estudio
+El Refugio Nacional de Vida Silvestre se crea mediante el mediante Decreto Ejecutivo N° 27210, del 16 de abril de 1998, y por medio del decreto N° 33044, del 03 de mayo del 2002 se amplía el área del refugio. Además, cuenta con diversidad de ecosistemas, cómo lo son: desembocadura de río, manglares, esteros, estuarios entre muchos otros [@herrera2010propuesta].
+
+El estudio se realizó en una de las plataformas rocosa que se encuentra dentro del Refigio Nacional de Vida Silvestre, estas plataformas se extiende en dirección al océano, formando un área de aproximadamente 4 km de largo, esta zona rocosa alberga diferentes formas de vida como lo son los moluscos [@azofeifa2018influencia]. 
 
 ## Muestreo de Lobatus galeatus
 
- Se establecieron tres parcelas de \SI{10 x 10}{\metre}, a conveniencia en la zona intermareal durante la marea baja, preferiblemente en zonas donde haya pozas o agua estancada. Además en cada parcela se efectuó una búsqueda intensiva de individuos de *L. galeatus* por un tiempo determinado de \SI{20}{\minute}; así mismo se utilizó la técnica de búsqueda por buceo con tubo de respiración (según lo sugerido por @Arroyo-Mora1998). Posteriormente se recolectaron solamente los individuos vivos con el fin de realizar la biometría del largo total de la concha (medición con vernier, \SI{+-0.005}{\milli\metre}) de cada animal, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. Este procedimiento se replicó por tres veces mínimo, hasta que no se encuentren individuos vivos dentro del lapso de tiempo determinado a este proceso se le denomina remoción. 
+Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
 
-Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asigna a cada individuo una clase según la edad, por ejemplo para juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se logró separar cada organismo recolectado en las distintas clases y  a partir de los datos obtenidos se construyó una tabla de vida.
+En cada parcela se hizo una búsqueda intensiva de L. galeatus mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}), una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
 
+Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\mi{\milli\metre), subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado y a partir de los datos obtenidos se construyó una tabla de vida.
  
 ### Análisis de datos
 
