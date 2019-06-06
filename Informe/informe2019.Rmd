@@ -65,7 +65,7 @@ source("/home/jose/Documents/U/poblacionesSilvestres/grupal2018/Informe/vbgf.R")
 
 # Introducción
 
- *Lobatus gigas* es un gasterópodo muy importante comercialmente en muchos de los lugares donde se distribuye. La carne de este caracol es conocida por ser una buena fuente de alimento y proteína, además la concha es comercializada con propósitos ornamentales [@ForbesPacheco2011]. Este molusco alcanza unos 25 cm de longitud en la concha después de 3 a 4 años; edad a partir de la cual son sexualmente maduros. El cambute habita en aguas poco profundas, raras veces son observadas a más de 50 m de profundidad. La especie esta distribuida en la región del Atlántico Occidental, desde Bermudas en el norte hasta el Golfo de México, la parte del Gran Caribe y la costa del norte de América del Sur [@GarciaRodriguez2016].En la vertiente del Pacífico el género *Lobatus* se ubica desde México hasta las islas Galápagos.
+ *Lobatus gigas* es un gasterópodo muy importante comercialmente en muchos de los lugares donde se distribuye. La carne de este caracol es conocida por ser una buena fuente de alimento y proteína, además la concha es comercializada con propósitos ornamentales [@ForbesPacheco2011]. Este molusco alcanza unos 25 cm de longitud en la concha después de 3 a 4 años; edad a partir de la cual son sexualmente maduros. El cambute habita en aguas poco profundas, raras veces son observadas a más de 50 m de profundidad. La especie esta distribuida en la región del Atlántico Occidental, desde Bermudas en el norte hasta el Golfo de México, la parte del Gran Caribe y la costa del norte de América del Sur [@GarciaRodriguez2016]. En la vertiente del Pacífico el género *Lobatus* se ubica desde México hasta las islas Galápagos.
  
 
 En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@mora1998estructura].
@@ -80,7 +80,7 @@ Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cad
 Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
-#Metodología
+# Metodología
 
 SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
 
@@ -90,9 +90,9 @@ SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
 
 ## Ciclo de gestión de datos
 
-Los datos recopilados en campo fueron entrados en una base datos conformada por tres hojas relacionadas entre sí. El valor de unión entre las hojas fue la fecha y el número de parcela. Las hojas permitieron manejar los datos de: 1) fecha, 2) cuadrante y 3) longitud de los individuos encontrados, respectivamente.
+Los datos recopilados en campo fueron entrados en una base datos conformada por tres hojas relacionadas entre sí. Las claves foráneas para relacionar los cuadros de la base de datos fue la fecha y el número de parcela. Las hojas permitieron manejar los datos de: 1) fecha, 2) cuadrante y 3) longitud de los individuos encontrados, respectivamente.
 
-La base de datos fue luego accesada para el análsis con el lenguaje estadístico R <!--[@R-Cran]--> a través del uso del paquete *sqldf* [@grothendieck2017package]. 
+La base de datos se creó con el programa LibreOffice Base (ver. )
 
 ## Área de estudio
 
