@@ -1,7 +1,7 @@
 ---
 title: "Plantilla basada en pdf_document2, de bookdown, y normas APA"
 author:
-- Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez, Francisco Vargas, Carlos Andrés Venegas Elizondo.
+- Grupo de Ecología de Poblaciones 2019
 ^[Licenciatura de Manejo de Recursos Naturales, Universidad Nacinal]
 
 subtitle: "Ecología de Poblaciones"
@@ -63,11 +63,13 @@ knitr::opts_chunk$set(echo=FALSE,warning = FALSE,message = FALSE, fig.align = 'c
 source("C:/localRepos/grupal2018/Informe/vbgf.R")
 ```
 
+# Resumen
+- Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 
 # Introducción
 **1. Ecosistemas Rocosos**
 
-**2.** *Lobatus galeatus*
+**2.** ***Lobatus galeatus***
 En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@mora1998estructura].
 
 Con respecto al ciclo de vida de la especie, según @Vega2003 el cambute alcanza 100 mm de longitud durante el primer año, posterior al asentamiento larvario. Después los individuos invierten aproximadamente un año para llegar hasta los 180 mm, talla con la que son capaces de reproducirse, con una tasa de crecimiento mayor en las tallas menores. En palabras sencillas, los individuos pueden alcanzar la edad reproductiva a los dos años.
