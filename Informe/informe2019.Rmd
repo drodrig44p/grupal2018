@@ -101,88 +101,37 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
  
 ### Análisis de datos
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
 
 Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
+
+\FloatBarrier
+
+# Resultados
+
+\FloatBarrier
+
+```{r,include=FALSE}
+library(unmarked)
+juvenil <- read.csv("C:/Users/Hewlett Packard/Desktop/UNA/2019 I ciclo/Ecologia y manejo de poblaciones silvetres/analisis cambute/Analsis_cambute/Juvenil2019.csv",h=F,row.names = NULL, sep= ";")
+juvenil <- as.matrix(juvenil)
+
+```
 
 
 ```{r}
 umf1 <- unmarkedFrameGMM(y = juvenil,
                          numPrimary = 1,
                          type = "removal")
-
-umf2 <- unmarkedFrameGMM(y = Subadulto,
-                         numPrimary = 1,
-                         type = "removal")
+summary(umf1)
+m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
+re <- ranef(m1)
+plot(re)
 ```
-
-
-Por otra parte, a partir del conjunto de datos recolectados de la longitud de la concha para cada clase de edad, se utilizó la función de crecimiento de Von Bertalanffy para estimar la probabilidad de madurez sexual de cada individuo. Por último se calculó la matriz de transición proyectada a 5 años, que permito estimar la probabilidad de extinción de la especie en ese sitio al final de ese periódo.A continuación la funcion de Von Bertalanffy y la matriz de transición respectivamente.
 
 ```{r}
-Viabilidadcambute <-
-  transStochMat$new (
-  matriz = Matrices(500),
-  n0 = n,
-  t = NT,
-  umbral = Nx,
-  incluirEtapa = c(0, 1, 1)
-  )
-```
-
-\FloatBarrier
-
-# Resultados
-
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
-
-Aquí se presentará la estimación de la probabilidad de extinción a 5 años para cada especie. También cualquier resultado que surge como paso intermedio para calcular la probabilidad de extinción.
-
-Durante los muestreos en los 12 sitios de estudio no se encontraron con individuos adultos, los individuos con talla de subadulto fueron dos individuos y estados inmaduros fueron los mas comunes de encontrar con un total de 21 individuos. en la figura 1 muestra el calculo de las probabilidades de presencia por sitio de muestreo para los individuos inmaduros y en la figura 2 se muestran las probabilidades de presencia por sitio de individuos juveniles, para el calculo de adultos no se pudo realizar por falta de datos. 
-
-nT:(21,1,0)
-
-```{r, fig.cap='probabilidades de presencia de *S. galeatus* juveniles en las parcelas escogidas aleatoriamente.'}
-
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-
-```
-
-\FloatBarrier
-
-```{r, fig.cap='probabilidad de presencia de individuos subadultos de *S. galeatus* en las parcelas seleccionadas para el estudio.'}
-
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-```
-
-\FloatBarrier
-
-Mediante la funcion de crecimiento de von bertalanffy pudimos determinar que los organismos de *S. galeatus* tardan aproximadamente 5 años en crecer hasta tener la talla adecuada para la madurez sexual (figura 3)
-
-```{r, fig.cap= 'funcion de crecimiento de von Bertalanffy de *S. gigas*'}
-
-curve(expr = VB(Li=183.2,k=0.3706,t0=-0.2,t=x),from=0, to=15)
-```
-
-\FloatBarrier
-
-posteriormente el calculo de la matriz de transicion nos indica que la poblacion goza de buena salud, sin embargo cabe recalcar que en este estudio no se tomo en consideracion la mortalidad, por esto se asume que todos los individuos juveniles pasan a sub adultos y de subadultos a adultos sin haber bajas en sus individuos. 
-
-```{r, fig.cap='Viabilidad de la población de cambute a 5 años'}
-
-Viabilidadcambute$plotN()  
-```
-
-\FloatBarrier
-
-la probabilidad de extinción para los individuos de *S. gigas* en 5 años es de 0 individuos, indicando que en los proximos 5 años la poblacion de cambute seguirá en el sitio.
-
-```{r, fig.cap='Probabilidad de extinción de la población de cambute a 5 años'}
-Viabilidadcambute$plotExtProb()
+backTransform(m1, type="lambda") # Individuals per plot
+#Erri backTransform(m1, type="phi") # Probability of being avilable
+backTransform(m1, type="det") # Probability of detection
 ```
 
 \FloatBarrier
