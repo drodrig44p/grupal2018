@@ -112,7 +112,7 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 ```{r,include=FALSE}
 library(unmarked)
-juvenil <- read.csv("C:/Users/Hewlett Packard/Desktop/UNA/2019 I ciclo/Ecologia y manejo de poblaciones silvetres/analisis cambute/Analsis_cambute/Juvenil2019.csv",h=F,row.names = NULL, sep= ";")
+juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
 juvenil <- as.matrix(juvenil)
 
 ```
