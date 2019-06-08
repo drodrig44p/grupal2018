@@ -112,7 +112,7 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 ```{r,include=FALSE}
 library(unmarked)
-juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
+juvenil <- read.csv("./Juvenil2019.csv", h=F, row.names= NULL, sep= ";")
 juvenil <- as.matrix(juvenil)
 
 ```
