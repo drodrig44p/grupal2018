@@ -64,7 +64,7 @@ source("C:/localRepos/grupal2018/Informe/vbgf.R")
 ```
 
 # Resumen
-- Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
+- **Integrantes:** Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 
 # Introducción
 **1. Ecosistemas Rocosos**
