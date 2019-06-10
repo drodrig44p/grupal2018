@@ -110,15 +110,17 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 \FloatBarrier
 
-```{r,include=FALSE}
+```{r, include=FALSE}
 library(unmarked)
 library(readr)
+library(ggplot2)
+```
+
+```{r,include=FALSE}
 Juvenil2019 <- read_delim("Juvenil2019.csv", 
     ";", escape_double = FALSE, col_names = FALSE, 
     trim_ws = TRUE)
-View(Juvenil2019)
 juvenil <- as.matrix(juvenil)
-
 ```
 
 
@@ -141,8 +143,7 @@ backTransform(m1, type="det") # Probability of detection
 \FloatBarrier
 
 ```{r, fig.cap='presencia de individuos juveniles de *L. galeatus* por remoción'}
-Juveniles_2019<-read.csv("C:/Users/yossd/Downloads/Juveniles_2019.csv", sep=";")
-ggplot(data = Juveniles_2019 , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
+ggplot(data = Juvenil2019 , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
 )
 ```
 
