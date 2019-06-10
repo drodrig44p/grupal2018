@@ -130,7 +130,7 @@ ggplot(data = cambute_bruto , aes(group= Cuadrante, x = as.character(Cuadrante) 
 stackdir = "center",alpha=0.7)+ theme_classic()+ labs(x = "Remoción", y = "Longitud de la concha (cm)")
 ```
 
-Las remociones en cada cuadrante 
+En cada cuadrante, se encontraron menos individuos en la remoción 3 comparada con la 1. 
 ```{r,include=FALSE}
 library(ggplot2)
 datosyoss <- read.delim("./Juveniles_2019.csv",h=T,sep = ";")
@@ -150,14 +150,13 @@ juvenil <- as.matrix(juvenil)
 ```
 
 
-```{r}
+```{r,include=FALSE}
 umf1 <- unmarkedFrameGMM(y = juvenil,
                          numPrimary = 1,
                          type = "removal")
 summary(umf1)
 m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
 re <- ranef(m1)
-plot(re)
 ```
 
 Los resultados estiman 2.53 individuos por cuadrante, con una probabilidad de detección 
