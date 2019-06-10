@@ -86,6 +86,17 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 
 ## Estimación de abundancia
 
+## Elaboración del sistema de gestión de datos.
+
+Con miras a realizar un proceso de monitoreo de las poblaciones de Strombus galeatus se desarrolló un sistema de gestión de datos que permita realizar una mejor administración de los datos colectados en campo, su resguardo y su posterior procesamiento. El monitoreo de esta especie permitirá a los administradores del RNVS Playa Hermosa-Punta Mala conocer en qué medida está contribuyendo el área silvestre protegida a la conservación y protección del cambute del pacífico.
+
+Para el almacenamiento de los datos se creó una base datos relacional mediante la utilización del programa LibreOffice Base. En su construcción, se elaboraron tres tablas de datos. La primera que contiene datos sobre la fecha en la que se desarrolló la gira; la segunda, conserva información sobre los cuadrantes muestreados así como su fecha y hora de muestreo; y por último, la tercera posee información sobre las remociones realizadas y las tallas de los individuos colectados.
+
+Los datos se ingresaron mediante un formulario desarrollado para tal efecto, donde la integración entre las tablas estaba dada entre la identificación de la tabla principal, en la primera tabla, y la identificación del cuadrante en la segunda tabla; la siguiente relación estaba dada entre la casilla del cuadrante, de la segunda tabla, y la casilla de la longitud total de la tercer tabla.
+
+Se realizaron tres consultas, una con los valores de longitud para los juveniles, sub adultos y adultos, el resultado de estas consultas se adecuó a para los requerimientos del paquete estadístico mediante una tabla dinámica el LibreOffice Calc, los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales con los datos de las columnas hicieran referencia a las remociones y los datos de las filas a las unidades de muestreo.
+
+
 
 
 ## Ciclo de gestión de datos
