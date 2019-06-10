@@ -140,7 +140,11 @@ backTransform(m1, type="det") # Probability of detection
 
 \FloatBarrier
 
-
+```{r, fig.cap='presencia de individuos juveniles de *L. galeatus* por remoción'}
+Juveniles_2019<-read.csv("C:/Users/yossd/Downloads/Juveniles_2019.csv", sep=";")
+ggplot(data = Juveniles_2019 , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
+)
+```
 
 # Bibliografía {-}
 
