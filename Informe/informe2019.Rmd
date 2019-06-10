@@ -1,9 +1,8 @@
 ---
-title: "Plantilla basada en pdf_document2, de bookdown, y normas APA"
+title: "Densidad de *Lobatus galeatus* en Punta Mala, Puntarenas"
 author:
-- Grupo de Ecología de Poblaciones 2019
-^[Licenciatura de Manejo de Recursos Naturales, Universidad Nacinal]
-
+- name: Grupo de Ecología de Poblaciones 2019
+  affiliation: Licenciatura de Manejo de Recursos Naturales, Universidad Nacional
 subtitle: "Ecología de Poblaciones"
 date: "`r format(Sys.Date(), '%d de %B, %Y')`"
 papersize: letter
