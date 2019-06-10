@@ -122,7 +122,29 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 \FloatBarrier
 
+```{r,include=FALSE}
+library(unmarked)
+juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
+juvenil <- as.matrix(juvenil)
 
+```
+
+
+```{r}
+umf1 <- unmarkedFrameGMM(y = juvenil,
+                         numPrimary = 1,
+                         type = "removal")
+summary(umf1)
+m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
+re <- ranef(m1)
+plot(re)
+```
+
+```{r}
+backTransform(m1, type="lambda") # Individuals per plot
+#Erri backTransform(m1, type="phi") # Probability of being avilable
+backTransform(m1, type="det") # Probability of detection
+```
 
 \FloatBarrier
 
