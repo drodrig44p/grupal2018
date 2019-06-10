@@ -121,11 +121,32 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 \FloatBarrier
 
+En los 9 cuadrantes muestreados, se encontraron 42 individuos de la especie *Lobatus galeatus* en la zona rocosa intermareal muestreada. Todos fueron categorizados como juveniles (< 15 cm) (Figura ). Solamente dos de los individuos tuvieron longitudes de la concha mayores de 6 cm, la mayoría fueron menor a 3 cm de largo. 
+
+
+```{r, fig.cap='Longitud promedio de L. galeatus por remoción'}
+cambute_bruto <- read.delim("./cambute_bruto.csv", sep=";",header = TRUE)
+ggplot(data = cambute_bruto , aes(group= Cuadrante, x = as.character(Cuadrante)  , y = longitud.total, fill=Cuadrante ))+ geom_boxplot()+ geom_dotplot(binaxis = "y",
+stackdir = "center",alpha=0.7)+ theme_classic()+ labs(x = "Remoción", y = "Longitud de la concha (cm)")
+```
+
+Las remociones en cada cuadrante 
+```{r,include=FALSE}
+library(ggplot2)
+datosyoss <- read.delim("./Juveniles_2019.csv",h=T,sep = ";")
+```
+
+```{r, fig.cap='presencia de individuos juveniles de *L. galeatus* por remoción'}
+ggplot(data = datosyoss , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
+)
+```
+
+
+
 ```{r,include=FALSE}
 library(unmarked)
 juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
 juvenil <- as.matrix(juvenil)
-
 ```
 
 
@@ -139,32 +160,12 @@ re <- ranef(m1)
 plot(re)
 ```
 
+Los resultados estiman 2.53 individuos por cuadrante, con una probabilidad de detección 
 ```{r}
 backTransform(m1, type="lambda") # Individuals per plot
 #Erri backTransform(m1, type="phi") # Probability of being avilable
 backTransform(m1, type="det") # Probability of detection
 ```
-
-```{r,include=FALSE}
-library(ggplot2)
-datosyoss <- read.delim("./Juveniles_2019.csv",h=T,sep = ";")
-datosyoss
-
-```
-
-
-
-```{r, fig.cap='presencia de individuos juveniles de *L. galeatus* por remoción'}
-ggplot(data = datosyoss , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
-)
-```
-
-```{r, fig.cap='Longitud promedio de L. galeatus por remoción'}
-cambute_bruto <- read.csv("C:/Users/eloyp/Downloads/cambute_bruto.csv", sep=";")
-ggplot(data = cambute_bruto , aes(group= Remocion, x = Remocion , y = longitud.total ))+ geom_boxplot(fill="salmon")+ theme_classic()+ labs(x = "Remoción", y = "Longitud de Lobatus galeatus(cm)")
-```
-
-
 
 
 \FloatBarrier
