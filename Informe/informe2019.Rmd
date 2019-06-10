@@ -147,6 +147,18 @@ ggplot(data = Juvenil2019 , aes(x = Remocion, y = Presencia)) +  geom_bar(stat =
 )
 ```
 
+
+
+
+
+
+
+
+```{r, fig.cap='Longitud promedio de L. galeatus por remoción'}
+cambute_bruto <- read.csv("C:/Users/eloyp/Downloads/cambute_bruto.csv", sep=";")
+ggplot(data = cambute_bruto , aes(group= Remocion, x = Remocion , y = longitud.total ))+ geom_boxplot(fill="salmon")+ theme_classic()+ labs(x = "Remoción", y = "Longitud de Lobatus galeatus(cm)")
+```
+
 # Bibliografía {-}
 
 
