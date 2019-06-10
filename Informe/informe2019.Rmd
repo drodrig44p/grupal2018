@@ -143,6 +143,8 @@ backTransform(m1, type="det") # Probability of detection
 \FloatBarrier
 
 ```{r, fig.cap='presencia de individuos juveniles de *L. galeatus* por remoción'}
+datosyoss <- read.delim("./Juvenil2019.csv",h=T,sep = ";")
+datosyoss
 ggplot(data = Juvenil2019 , aes(x = Remocion, y = Presencia)) +  geom_bar(stat = "identity", fill="salmon")+ theme_classic(
 )
 ```
