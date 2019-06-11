@@ -62,6 +62,13 @@ knitr::opts_chunk$set(echo=FALSE,warning = FALSE,message = FALSE, fig.align = 'c
 source("C:/localRepos/grupal2018/Informe/vbgf.R")
 ```
 
+
+```{r}
+library(ggplot2)
+library(unmarked)
+library(readr)
+```
+
 # Resumen
 - **Integrantes:** Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 
@@ -91,7 +98,7 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
-#Metodología
+# Metodología
 
 SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
 
@@ -99,7 +106,7 @@ DESARROLLAR solo la sección de estimación de abundancia.
 
 ADAPTAR el ciclo de gestión de datos para que se incluyan todos sus pasos en esta sección.
 
-##Área de estudio
+## Área de estudio
 
 El Refugio Nacional de Vida Silvestre Punta Mala está localizado en la costa del Pacífico Central de Costa Rica, a 8 km de Playa Jacó y entre las coordenadas 9º31’04”N y 84º32’25” W  [@Alvarado2007]. Parte de la zona marino costera del refugio, consiste de varios metros de material rocoso formados durante el Mioceno medio, que quedan expuestos durante el periodo de marea baja [@seyfried1985sedimentologia] (Figura 1). Las condiciones climatológicas de la zona tiene una precipitación media anual de 3 689 mm, una temperatura media anual de \SI{27}{\degreeCelsius} y la humedad relativa del \SI{98}{\percent} [@Solano2012].
 
@@ -113,7 +120,7 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
 ### Análisis de datos
 
 
-Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
+Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas.
 
 \FloatBarrier
 
@@ -121,29 +128,45 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 
 \FloatBarrier
 
-```{r,include=FALSE}
-library(unmarked)
-juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
-juvenil <- as.matrix(juvenil)
+En los 9 cuadrantes muestreados, se encontraron 42 individuos de la especie *Lobatus galeatus* en la zona rocosa intermareal muestreada, en cuadro de los cuadrantes se encontró por lo menos 1 cambute, siendo el máximo registro en el cuadrante 8 con 10 individuos. Todos fueron categorizados como juveniles (< 15 cm  (Figura 4.0.1). Solamente dos de los individuos tuvieron longitudes de la concha mayores de 6 cm, la mayoría fueron menor a 3 cm de largo. 
 
+```{r,include=FALSE}
+cambute_bruto <- read.delim("./cambute_bruto.csv", sep=";",header = TRUE)
 ```
 
+```{r, fig.cap=' Longitud de individuos juveniles de L. galeatus por cuadrante.Un círculo representa un individuo'}
+ggplot(data = cambute_bruto , aes(group= Cuadrante, x = as.character(Cuadrante)  , y = longitud.total, fill=Cuadrante ))+ geom_boxplot()+ geom_dotplot(binaxis = "y",
+stackdir = "center",alpha=0.7)+ theme_classic()+ labs(x = "Cuadrante", y = "Longitud de la concha (cm)")
+```
 
-```{r}
+En cada cuadrante, se encontraron menos individuos en la remoción 3 comparada con la  remoción 1 (Figura 4.0.2). 
+
+```{r, fig.cap='presencia de individuos juveniles de L. galeatus por remoción'}
+ggplot(data = cambute_bruto , aes(x = Remocion)) +  geom_bar(fill="salmon")+ theme_classic(
+)
+```
+
+```{r,include=FALSE}
+juvenil <- read_delim("Juvenil2019.csv", 
+    ";", escape_double = FALSE, col_names = FALSE, 
+    trim_ws = TRUE)
+juvenil
 umf1 <- unmarkedFrameGMM(y = juvenil,
                          numPrimary = 1,
                          type = "removal")
 summary(umf1)
 m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
 re <- ranef(m1)
-plot(re)
 ```
 
-```{r}
+El análisis de remoción mostró que Para la zona intermareal de la playa Punta Mala, se estiman 5.72 (S.E= 1.186) individuos por cuadrante, con una probabilidad de detección  de 43 % (S.E= 0.116). 
+
+```{r, echo=FALSE}
 backTransform(m1, type="lambda") # Individuals per plot
 #Erri backTransform(m1, type="phi") # Probability of being avilable
 backTransform(m1, type="det") # Probability of detection
 ```
+
 
 \FloatBarrier
 
