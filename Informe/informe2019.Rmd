@@ -1,9 +1,9 @@
 ---
-title: "Plantilla basada en pdf_document2, de bookdown, y normas APA"
+title: "Densidad de *Lobatus galeatus* en Punta Mala, Puntarenas"
 author:
-- Author One^[University of Somewhere]
-- Author Two^[University of Nowhere]
-subtitle: "Curso XXX"
+- name: Grupo de Ecología de Poblaciones 2019
+  affiliation: Licenciatura de Manejo de Recursos Naturales, Universidad Nacional
+subtitle: "Ecología de Poblaciones"
 date: "`r format(Sys.Date(), '%d de %B, %Y')`"
 papersize: letter
 fontsize: 12pt
@@ -42,8 +42,8 @@ header-includes:
 - \newtheorem{summary}{Resumen}
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
-- \lhead{APA Template}
-- \rhead{D. Martinez}
+- \lhead{Ecol. Pobl. Silv. 2019}
+- \rhead{Trabajo grupal}
 - \RaggedRight
 - \usepackage{translator}
 - \sisetup{list-final-separator = { \translate{and}\ }, list-pair-separator = { \translate{and}\ }, range-phrase = { \translate{to (numerical range)} } }
@@ -62,22 +62,33 @@ knitr::opts_chunk$set(echo=FALSE,warning = FALSE,message = FALSE, fig.align = 'c
 source("C:/localRepos/grupal2018/Informe/vbgf.R")
 ```
 
+# Resumen
+- **Integrantes:** Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 
 # Introducción
+**1. Ecosistemas Rocosos**
+Las áreas protegidas son sitios importantes para la conservación y protección de ambientes naturales y especies que habitan en ella. El Refugio de Vida Silvestre Punta Mala, es un sitio donde protege playas, zonas de bosque y áreas geológicas importantes. Como lo son los ecosistemas rocosos que poseen características biológicas, ecológicas y paisajísticas importantes (Salas, Ross & Arias, 2012). Son áreas que se encuentran en constante exposición al sol y emersión del mar, según las mareas que presente. Además son sitios con una variación de parámetros como la acción de las olas, dinámica de sedimentos, temperatura, salinidad, etc. (Paniagua, 2015).  Los ecosistemas rocosos intermareales son sitios que contienen comunidades con altos niveles de diversidad y dinámica que han sido estudiados a lo largo del tiempo. Al ser especies accesibles son utilizados como modelos ecológicos para observar y estudiar patrones y procesos a diferentes escalas (Peña, 2011). 
 
- *Lobatus gigas* es un gasterópodo muy importante comercialmente en muchos de los lugares donde se distribuye. La carne de este caracol es conocida por ser una buena fuente de alimento y proteína, además la concha es comercializada con propósitos ornamentales [@ForbesPacheco2011]. Este molusco alcanza unos 25 cm de longitud en la concha después de 3 a 4 años; edad a partir de la cual son sexualmente maduros. El cambute habita en aguas poco profundas, raras veces son observadas a más de 50 m de profundidad. La especie esta distribuida en la región del Atlántico Occidental, desde Bermudas en el norte hasta el Golfo de México, la parte del Gran Caribe y la costa del norte de América del Sur [@GarciaRodriguez2016].En la vertiente del Pacífico el género *Lobatus* se ubica desde México hasta las islas Galápagos.
- 
+**2.** ***Lobatus galeatus***
+El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} (Mora, D. A, 1998).
 
-En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@mora1998estructura].
+En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular (Mora, D. A, 1998).
 
-Las  poblaciones de *Lobatus galeatus* en lugares como: Panamá, Mexico, Ecuador y otros lugares del Pacífico muestran una baja tasa de crecimiento en los últimos años. Esta situación se relaciona con la explotación masiva sin regulaciones provocada por el ser humano para el consumo de este molusco [@Castellanos-Galindo2011]. Los modelos de crecimiento en esta especie son utilizados en muchos para establecer políticas que regulen la extracción y comercialización. Por ejemplo, en Panamá han detectado que cinco años después de haber prohibido la extracción de cambute, la población aun no muestra una tendencia al aumento, a pesar de encontrar principalmente individuos adultos [@Cipriani2008].
+Con respecto al ciclo de vida de la especie, según (Vega & Pérez,  2003) el cambute alcanza 100 mm de longitud durante el primer año, posterior al asentamiento larvario. Después los individuos invierten aproximadamente un año para llegar hasta los 180 mm, talla con la que son capaces de reproducirse, con una tasa de crecimiento mayor en las tallas menores. En palabras sencillas, los individuos pueden alcanzar la edad reproductiva a los dos años.
 
+Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cada desove. Esta variación en la cantidad de huevos puestos por cada hembra, se debe al efecto que ciertas condiciones ambientales generan sobre ellas, como por ejemplo: la temperatura y la disponibilidad de alimento. Cada hembra puede poner entre 8 y 9 masas de huevos  en cada temporada reproductiva (Robertson, 1959). 
 
-Los modelos de crecimiento en esta especie son utilizados en muchos estudios con el fin de determinar si la población se encuentra en declive o en aumento, después de que se prohíbe o se permite la extracción comercial de este caracol. Tal es el caso de una investigación realizada en Panamá donde detectan que cinco años después de haber prohibido la pesca de cambute, la población de estos en Las Perlas y Coiba Archipelagos no se encuentra en aumento, encontrando principalmente individuos adultos [@Cipriani2008].
+Los individuos  han sido extraídos por las personas que habitan cerca de las costas, ya sea manualmente o por buceo a pulmón, con el fin de consumirlo. La especie se ha visto afectada por un incremento en la demanda local y turística, tornando su uso a un nivel comercial. Debido a esto y al largo tiempo para alcanzar la edad reproductiva, la densidad de la población ha decrecido e incluso ha desaparecido de algunas zonas específicas. Como consecuencia, actualmente existe una prohibición de captura y comercialización de esta especie dentro de Costa Rica (Arroyo-Mora, 2008).
 
-Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cada desove. Esta variación en la cantidad de huevos puestos por cada hembra, se debe al efecto que ciertas condiciones ambientales generan sobre ellas, como por ejemplo: la temperatura y la disponibilidad de alimento. Cada hembra puede poner  entre 8 y 9 masas de huevos  en cada temporada reproductiva [@robertson1959]. 
+Las  poblaciones de *Lobatus galeatus* en lugares como: Panamá, Mexico, Ecuador y otros lugares del Pacífico muestran una baja tasa de crecimiento en los últimos años. Esta situación se relaciona con la explotación masiva sin regulaciones provocada por el ser humano para el consumo de este molusco (Castellanos-Galindo, *et* al, 2011). Los modelos de crecimiento en esta especie son utilizados en muchos para establecer políticas que regulen la extracción y comercialización. Por ejemplo, en Panamá han detectado que cinco años después de haber prohibido la extracción de cambute, la población aun no muestra una tendencia al aumento, a pesar de encontrar principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
 
-Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
+**3. Dinámica de poblaciones** 
+Los modelos de crecimiento en esta especie son utilizados en muchos estudios con el fin de determinar si la población se encuentra en declive o en aumento, después de que se prohíbe o se permite la extracción comercial de este caracol. Tal es el caso de una investigación realizada en Panamá donde detectan que cinco años después de haber prohibido la pesca de cambute, la población de estos en Las Perlas y Coiba Archipelagos no se encuentra en aumento, encontrando principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
+
+Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito (Cipriani, Guzman, Vega, & Lopez, 2008). 
+
+**4. Objetivo**
+El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
 #Metodología
@@ -101,88 +112,37 @@ Por otro lado utilizando las medidas descritas por [@Arroyo-Mora1998],donde asig
  
 ### Análisis de datos
 
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
 
 Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
+
+\FloatBarrier
+
+# Resultados
+
+\FloatBarrier
+
+```{r,include=FALSE}
+library(unmarked)
+juvenil <- read.csv("./Juveniles2019.csv", h=F, row.names= NULL, sep= ";")
+juvenil <- as.matrix(juvenil)
+
+```
 
 
 ```{r}
 umf1 <- unmarkedFrameGMM(y = juvenil,
                          numPrimary = 1,
                          type = "removal")
-
-umf2 <- unmarkedFrameGMM(y = Subadulto,
-                         numPrimary = 1,
-                         type = "removal")
+summary(umf1)
+m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
+re <- ranef(m1)
+plot(re)
 ```
-
-
-Por otra parte, a partir del conjunto de datos recolectados de la longitud de la concha para cada clase de edad, se utilizó la función de crecimiento de Von Bertalanffy para estimar la probabilidad de madurez sexual de cada individuo. Por último se calculó la matriz de transición proyectada a 5 años, que permito estimar la probabilidad de extinción de la especie en ese sitio al final de ese periódo.A continuación la funcion de Von Bertalanffy y la matriz de transición respectivamente.
 
 ```{r}
-Viabilidadcambute <-
-  transStochMat$new (
-  matriz = Matrices(500),
-  n0 = n,
-  t = NT,
-  umbral = Nx,
-  incluirEtapa = c(0, 1, 1)
-  )
-```
-
-\FloatBarrier
-
-# Resultados
-
-SEPARAR en estimación de abundancia y Análisis de Viabilidad de Población.
-
-DESARROLLAR solo la sección de estimación de abundancia.
-
-Aquí se presentará la estimación de la probabilidad de extinción a 5 años para cada especie. También cualquier resultado que surge como paso intermedio para calcular la probabilidad de extinción.
-
-Durante los muestreos en los 12 sitios de estudio no se encontraron con individuos adultos, los individuos con talla de subadulto fueron dos individuos y estados inmaduros fueron los mas comunes de encontrar con un total de 21 individuos. en la figura 1 muestra el calculo de las probabilidades de presencia por sitio de muestreo para los individuos inmaduros y en la figura 2 se muestran las probabilidades de presencia por sitio de individuos juveniles, para el calculo de adultos no se pudo realizar por falta de datos. 
-
-nT:(21,1,0)
-
-```{r, fig.cap='probabilidades de presencia de *S. galeatus* juveniles en las parcelas escogidas aleatoriamente.'}
-
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-
-```
-
-\FloatBarrier
-
-```{r, fig.cap='probabilidad de presencia de individuos subadultos de *S. galeatus* en las parcelas seleccionadas para el estudio.'}
-
-plot(re, layout=c(5,5), xlim=c(-1,20), subset=site%in%1:25)
-```
-
-\FloatBarrier
-
-Mediante la funcion de crecimiento de von bertalanffy pudimos determinar que los organismos de *S. galeatus* tardan aproximadamente 5 años en crecer hasta tener la talla adecuada para la madurez sexual (figura 3)
-
-```{r, fig.cap= 'funcion de crecimiento de von Bertalanffy de *S. gigas*'}
-
-curve(expr = VB(Li=183.2,k=0.3706,t0=-0.2,t=x),from=0, to=15)
-```
-
-\FloatBarrier
-
-posteriormente el calculo de la matriz de transicion nos indica que la poblacion goza de buena salud, sin embargo cabe recalcar que en este estudio no se tomo en consideracion la mortalidad, por esto se asume que todos los individuos juveniles pasan a sub adultos y de subadultos a adultos sin haber bajas en sus individuos. 
-
-```{r, fig.cap='Viabilidad de la población de cambute a 5 años'}
-
-Viabilidadcambute$plotN()  
-```
-
-\FloatBarrier
-
-la probabilidad de extinción para los individuos de *S. gigas* en 5 años es de 0 individuos, indicando que en los proximos 5 años la poblacion de cambute seguirá en el sitio.
-
-```{r, fig.cap='Probabilidad de extinción de la población de cambute a 5 años'}
-Viabilidadcambute$plotExtProb()
+backTransform(m1, type="lambda") # Individuals per plot
+#Erri backTransform(m1, type="phi") # Probability of being avilable
+backTransform(m1, type="det") # Probability of detection
 ```
 
 \FloatBarrier
@@ -190,10 +150,22 @@ Viabilidadcambute$plotExtProb()
 
 
 # Bibliografía {-}
+Arroyo-Mora, D. (2008). Características poblacionales del cambute, Strombus galeatus (Gastropoda: Strombidae) en el Parque Marino Ballena, Pacífico, Costa Rica (1999-2003). Revista de Biología Tropical, 56(4), 113-124.
 
+Castellanos-Galindo, G. A., Cantera, J. R., Espinosa, S., & Mej&#39;ia-Ladino, L. M. (2011). Use of local ecological knowledge, scientist&#39;s observations and grey literature to assess marine species at risk in a tropical eastern Paci􀏐ic estuary. Aquatic Conservation: Marine and Freshwater Ecosystems, 21(1), 37–48. https://doi.org/10.1002/aqc.1163 
 
-\setlength{\parindent}{-0.2in}
-\setlength{\leftskip}{0.2in}
-\setlength{\parskip}{8pt}
-\noindent
+Castro-Mondragón, H., Flores-Garza, R., Valdez-González, A., Flores-Rodríguez, P., García-Ibáñez, S., & Rosas-Acevedo, J. L. (2016). Diversidad, especies de mayor importancia y composición de tallas de los moluscos en la pesca ribereña en Acapulco, Guerrero, México. Acta universitaria, 26(6), 24-34
 
+Cipriani, R., Guzman, H. M., Vega, A. J., & Lopez, M. (2008). Population Assessment of the Conch Strombus galeatus (Gastropoda, Strombidae) in Paci􀏐ic Panama. Journal of Shell􀏔ish Research, 27(4), 889–896. https://doi.org/10.2983/07308000(2008)27[889:PAOTCS]2.0.CO;2
+
+Mora, D. A. (1998). Crecimiento y reproducción de Strombus galeatus (Gastropoda: Strombidae) en el Pacífico de Costa Rica. Revista de biología tropical, 27-36. .
+
+Paniagua, G. (2015). Dinamica costera y ecología de comunidades macrobentónicas intermareales de Pehuen CO, provincia de Buenos Aires. Tesina de licenciatura. Universidad Nacional del Sur. Argentina.
+
+Peña, C. (2011). Estructura de las comunidad desde el intermareal rocoso asociadas al mejillón Mytilus californianus en la costa oeste de Baja California. Tesis para Maestría. Universidad Autónoma de Baja California. México.
+
+Salas, E.; E. Ross Salazar & A. Arias (Eds.). 2012. Diagnóstico de áreas marinas protegidas y áreas marinas para la pesca responsable en el Pacífico costarricense. Fundación MarViva. San José, Costa Rica. 174 pp.
+
+Robertson, R. (1959). Observations on the spawn and veligers of conchs (strombus) in the bahamas. Journal of Molluscan Studies, 33(4), 164–171.
+
+Vega, A. J., & Pérez, F. (2003). Crecimiento del Cambute, Strombus galeatus (Gastropoda: Strombidae) en el Parque Nacional Coiba, Pacífico Panameno. Tecnociencias, 5, 77-89
