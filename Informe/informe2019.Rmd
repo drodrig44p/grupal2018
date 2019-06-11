@@ -59,7 +59,7 @@ urlcolor: blue
 ```{r settings, message=FALSE, warning=FALSE, echo=FALSE}
 knitr::knit_hooks$set(inline = identity) 
 knitr::opts_chunk$set(echo=FALSE,warning = FALSE,message = FALSE, fig.align = 'center',fig.width = 5,fig.pos = 'htb!')
-source("C:/localRepos/grupal2018/Informe/vbgf.R")
+source("vbgf.R")
 ```
 
 
@@ -70,13 +70,17 @@ library(readr)
 ```
 
 # Resumen
+
 - **Integrantes:** Ericka Arley Venegas, Jeannina Barrientos Ching, Jorge D. Carballo Morales, José López Rodriguez, Daniela Madrigal Tejada, Daniela Marín Ramírez, Joselyn Miranda González, Sofia Pastor Parajeles, Katherine Porras Brenes, Daniel Rodriguez García, Francisco Vargas, Carlos Andrés Venegas Elizondo.
 
 # Introducción
-**1. Ecosistemas Rocosos**
+
+## Ecosistemas Rocosos
+
 Las áreas protegidas son sitios importantes para la conservación y protección de ambientes naturales y especies que habitan en ella. El Refugio de Vida Silvestre Punta Mala, es un sitio donde protege playas, zonas de bosque y áreas geológicas importantes. Como lo son los ecosistemas rocosos que poseen características biológicas, ecológicas y paisajísticas importantes (Salas, Ross & Arias, 2012). Son áreas que se encuentran en constante exposición al sol y emersión del mar, según las mareas que presente. Además son sitios con una variación de parámetros como la acción de las olas, dinámica de sedimentos, temperatura, salinidad, etc. (Paniagua, 2015).  Los ecosistemas rocosos intermareales son sitios que contienen comunidades con altos niveles de diversidad y dinámica que han sido estudiados a lo largo del tiempo. Al ser especies accesibles son utilizados como modelos ecológicos para observar y estudiar patrones y procesos a diferentes escalas (Peña, 2011). 
 
-**2.** ***Lobatus galeatus***
+## Biología de *Lobatus galeatus*
+
 El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} (Mora, D. A, 1998).
 
 En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular (Mora, D. A, 1998).
@@ -89,13 +93,15 @@ Los individuos  han sido extraídos por las personas que habitan cerca de las co
 
 Las  poblaciones de *Lobatus galeatus* en lugares como: Panamá, Mexico, Ecuador y otros lugares del Pacífico muestran una baja tasa de crecimiento en los últimos años. Esta situación se relaciona con la explotación masiva sin regulaciones provocada por el ser humano para el consumo de este molusco (Castellanos-Galindo, *et* al, 2011). Los modelos de crecimiento en esta especie son utilizados en muchos para establecer políticas que regulen la extracción y comercialización. Por ejemplo, en Panamá han detectado que cinco años después de haber prohibido la extracción de cambute, la población aun no muestra una tendencia al aumento, a pesar de encontrar principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
 
-**3. Dinámica de poblaciones** 
+## Dinámica de poblaciones de *Lobatus galeatus*
+
 Los modelos de crecimiento en esta especie son utilizados en muchos estudios con el fin de determinar si la población se encuentra en declive o en aumento, después de que se prohíbe o se permite la extracción comercial de este caracol. Tal es el caso de una investigación realizada en Panamá donde detectan que cinco años después de haber prohibido la pesca de cambute, la población de estos en Las Perlas y Coiba Archipelagos no se encuentra en aumento, encontrando principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
 
 Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito (Cipriani, Guzman, Vega, & Lopez, 2008). 
 
-**4. Objetivo**
-El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
+## Objetivo
+
+El objetivo de este trabajo es estimar densidad poblacional de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
 
 # Metodología
@@ -173,6 +179,7 @@ backTransform(m1, type="det") # Probability of detection
 
 
 # Bibliografía {-}
+
 Arroyo-Mora, D. (2008). Características poblacionales del cambute, Strombus galeatus (Gastropoda: Strombidae) en el Parque Marino Ballena, Pacífico, Costa Rica (1999-2003). Revista de Biología Tropical, 56(4), 113-124.
 
 Castellanos-Galindo, G. A., Cantera, J. R., Espinosa, S., & Mej&#39;ia-Ladino, L. M. (2011). Use of local ecological knowledge, scientist&#39;s observations and grey literature to assess marine species at risk in a tropical eastern Paci􀏐ic estuary. Aquatic Conservation: Marine and Freshwater Ecosystems, 21(1), 37–48. https://doi.org/10.1002/aqc.1163 
