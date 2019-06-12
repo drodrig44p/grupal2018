@@ -148,13 +148,13 @@ Cuadro 1. Descripción de las variables de los cuadros en la base de datos.
 
 Los datos se ingresaron mediante un formulario desarrollado para tal efecto, donde la integración entre los cuadros estaba dada entre la identificación del cuadro principal, en el primer cuadro, y la identificación del cuadrante en el segundo cuadro; la siguiente relación estaba dada entre la casilla del cuadrante, del segundo cuadro, y la casilla de la longitud total del tercer cuadro.
 
-Se realizaron tres consultas con los valores de longitud para los juveniles, sub adultos y adultos, el resultado de estas consultas se adecuó a los requerimientos del paquete estadístico "unmarked" de R, mediante una tabla dinámica en LibreOffice Calc (versión 5.2.7.2), los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales; los datos de las columnas hicieron referencia a las remociones y los datos de las filas a las unidades de muestreo, la misma se exportó a formato de valores separados por comas (csv) para facilitar su importación en R.
+Se realizaron tres consultas con los valores de longitud para los juveniles, sub adultos y adultos. Dicha clasificación se realizó según las medidas descritas por Arroyo-Mora (1998) en la cual se asignó una clase de edad según la longitud total;  los juveniles correspondieron a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y los adultos superior a los \SI{170}{\milli\metre}. El resultado de estas consultas se adecuó a los requerimientos del paquete estadístico "unmarked" de R, mediante una tabla dinámica en LibreOffice Calc (versión 5.2.7.2), los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales; las columnas hicieron referencia a las remociones y las filas a las unidades de muestreo. Con la tabla dinámica se creó una hoja de datos con formato de valores separados por comas (csv) para facilitar su importación para el análisis.
 
 ## Análisis de datos
 
-### Estimación de abundancia y Análisis de Viabilidad de Población
+### Estimación de abundancia
 
-El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
+El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "generalized multinomial N-mixture model" (gmultmix), basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron; esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, para obtener la probabilidad de existencia en los sitios de muestreo de las clases obtenidas. La función utilizada fue:
 
 ```{r}
 umf1 <- unmarkedFrameGMM(y = juvenil,
@@ -162,9 +162,7 @@ umf1 <- unmarkedFrameGMM(y = juvenil,
                          type = "removal")
 ```
 
-En cada parcela se hizo una búsqueda intensiva de L. galeatus mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
-
-Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado y a partir de los datos obtenidos se construyó una tabla de vida.
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
 
 \FloatBarrier <!----------------------------------------------------------------------------------------->
 
