@@ -136,24 +136,6 @@ El análisis de los datos recolectados, se realizó con el paquete de R, denomin
 umf1 <- unmarkedFrameGMM(y = juvenil,
                          numPrimary = 1,
                          type = "removal")
-
-umf2 <- unmarkedFrameGMM(y = Subadulto,
-                         numPrimary = 1,
-                         type = "removal")
-```
-
-
-Por otra parte, a partir del conjunto de datos recolectados de la longitud de la concha para cada clase de edad, se utilizó la función de crecimiento de Von Bertalanffy para estimar la probabilidad de madurez sexual de cada individuo. Por último se calculó la matriz de transición proyectada a 5 años, que permito estimar la probabilidad de extinción de la especie en ese sitio al final de ese periódo. A continuación la funcion de Von Bertalanffy y la matriz de transición respectivamente.
-
-```{r}
-Viabilidadcambute <-
-  transStochMat$new (
-  matriz = Matrices(500),
-  n0 = n,
-  t = NT,
-  umbral = Nx,
-  incluirEtapa = c(0, 1, 1)
-  )
 ```
 
 \FloatBarrier <!----------------------------------------------------------------------------------------->
