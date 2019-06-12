@@ -7,7 +7,7 @@ subtitle: "Ecología de Poblaciones"
 date: "`r format(Sys.Date(), '%d de %B, %Y')`"
 papersize: letter
 fontsize: 12pt
-documentclass: report
+documentclass: article
 classoption: twoside, openright
 lang: "es-419"
 secnumdepth: 1
@@ -19,7 +19,7 @@ output:
     toc: true
     toc_depth: 2
     number_sections: true
-    keep_tex: yes
+    keep_tex: false
 mainfont: Times New Roman
 mathfont: Times New Roman
 sansfont: Arial
