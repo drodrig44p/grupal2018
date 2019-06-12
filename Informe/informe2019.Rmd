@@ -79,12 +79,27 @@ Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cad
 
 Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. El objetivo de este trabajo es estimar la probabilidad de extinción a cinco años de la población de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
+<!----------------------------------------------------------------------------------------->
 
 # Metodología
 
-## Estimación de abundancia
+## Área de estudio
 
-## Elaboración del sistema de gestión de datos.
+Se visitó el sitio de muestreo del cambute, los días del 15 al 17 de marzo de 2019; el área de estudio se encuentra en el Refugio Nacional de Vida Silvestre Playa Hermosa – Punta Mala, este refugio nacional de vida silvestre pertenece al Área de Conservación Pacífico Central, se encuentra ubicado específicamente en el cantón de Garabito en la provincia de Puntarenas, coordenadas geográficas: 9°31’04’’N y 84°32’25’’W, además cuenta con una precipitación de 3 780 mm al año y una temperatura máxima de 31°C y una mínima de  de 23°C [@alvarado2007migracion]; [@vargas2014relacion].
+
+El Refugio Nacional de Vida Silvestre se crea mediante el mediante Decreto Ejecutivo N° 27210, del 16 de abril de 1998, y por medio del decreto N° 33044, del 03 de mayo del 2002 se amplía el área del refugio. Además, cuenta con diversidad de ecosistemas, cómo lo son: desembocadura de río, manglares, esteros, estuarios entre muchos otros [@herrera2010propuesta].
+
+El estudio se realizó en una de las plataformas rocosa que se encuentra dentro del Refigio Nacional de Vida Silvestre, estas plataformas se extiende en dirección al océano, formando un área de aproximadamente 4 km de largo, esta zona rocosa alberga diferentes formas de vida como lo son los moluscos [@azofeifa2018influencia]. 
+
+## Muestreo de *Lobatus galeatus*
+
+Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
+
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador (pie de rey), \SI{+- ~~0.005~~ 0.05}{\milli\metre}), una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida, para eliminar la posibilidad de reconteo. 
+
+Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\mi{\milli\metre), subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado, y a partir de los datos obtenidos se construyó una tabla de vida.
+
+## Elaboración del sistema de gestión de datos
 
 <!--por qué los recolectamos-->
 Con miras a realizar un proceso de monitoreo de las poblaciones de *Lobatus galeatus* se desarrolló un sistema de gestión de datos que permita realizar una mejor administración de los datos colectados en campo, su resguardo y su posterior procesamiento. El monitoreo de esta especie permitirá a los administradores del RNVS Playa Hermosa-Punta Mala conocer en qué medida está contribuyendo el área silvestre protegida a la conservación y protección del cambute del Pacífico.
@@ -111,33 +126,11 @@ Los datos se ingresaron mediante un formulario desarrollado para tal efecto, don
 
 Se realizaron tres consultas con los valores de longitud para los juveniles, sub adultos y adultos, el resultado de estas consultas se adecuó a los requerimientos del paquete estadístico "unmarked" de R, mediante una tabla dinámica en LibreOffice Calc (versión 5.2.7.2), los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales; los datos de las columnas hicieron referencia a las remociones y los datos de las filas a las unidades de muestreo, la misma se exportó a formato de valores separados por comas (csv) para facilitar su importación en R.
 
-## Área de estudio
+## Análisis de datos
 
-Se visitó el sitio de muestreo del cambute, los días del 15 al 17 de marzo de 2019; el área de estudio se encuentra en el Refugio Nacional de Vida Silvestre Playa Hermosa – Punta Mala, este refugio nacional de vida silvestre pertenece al Área de Conservación Pacífico Central, se encuentra ubicado específicamente en el cantón de Garabito en la provincia de Puntarenas, coordenadas geográficas: 9°31’04’’N y 84°32’25’’W, además cuenta con una precipitación de 3 780 mm al año y una temperatura máxima de 31°C y una mínima de  de 23°C [@alvarado2007migracion]; [@vargas2014relacion].
+### Estimación de abundancia y Análisis de Viabilidad de Población
 
-El Refugio Nacional de Vida Silvestre se crea mediante el mediante Decreto Ejecutivo N° 27210, del 16 de abril de 1998, y por medio del decreto N° 33044, del 03 de mayo del 2002 se amplía el área del refugio. Además, cuenta con diversidad de ecosistemas, cómo lo son: desembocadura de río, manglares, esteros, estuarios entre muchos otros [@herrera2010propuesta].
-
-El estudio se realizó en una de las plataformas rocosa que se encuentra dentro del Refigio Nacional de Vida Silvestre, estas plataformas se extiende en dirección al océano, formando un área de aproximadamente 4 km de largo, esta zona rocosa alberga diferentes formas de vida como lo son los moluscos [@azofeifa2018influencia]. 
-
-## Muestreo de *Lobatus galeatus*
-
-Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
-
-En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador (pie de rey), \SI{+- ~~0.005~~ 0.05}{\milli\metre}), una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
-
-Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\mi{\milli\metre), subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado, y a partir de los datos obtenidos se construyó una tabla de vida.
- 
-### Análisis de datos
-
-
-
-## Estimación de abundancia y Análisis de Viabilidad de Población
-
-
-
-DESARROLLAR solo la sección de estimación de abundancia.
-
-Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
+El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas. A continuación la función utilizada fue:
 
 ```{r}
 umf1 <- unmarkedFrameGMM(y = juvenil,
@@ -163,7 +156,7 @@ Viabilidadcambute <-
   )
 ```
 
-\FloatBarrier
+\FloatBarrier <!----------------------------------------------------------------------------------------->
 
 # Resultados
 
@@ -216,7 +209,7 @@ la probabilidad de extinción para los individuos de *L. gigas* en 5 años es de
 Viabilidadcambute$plotExtProb()
 ```
 
-\FloatBarrier
+\FloatBarrier <!----------------------------------------------------------------------------------------->
 
 
 
