@@ -59,7 +59,7 @@ urlcolor: blue
 ```{r settings, message=FALSE, warning=FALSE, echo=FALSE}
 knitr::knit_hooks$set(inline = identity) 
 knitr::opts_chunk$set(echo=FALSE,warning = FALSE,message = FALSE, fig.align = 'center',fig.width = 5,fig.pos = 'htb!')
-source("vbgf.R")
+
 ```
 
 
@@ -152,7 +152,7 @@ Para el análisis de los datos recolectados, se utilizó el paquete de R, denomi
 En los 9 cuadrantes muestreados, se encontraron 42 individuos de la especie *Lobatus galeatus* en la zona rocosa intermareal muestreada, en cuadro de los cuadrantes se encontró por lo menos 1 cambute, siendo el máximo registro en el cuadrante 8 con 10 individuos. Todos fueron categorizados como juveniles (< 15 cm  (Figura 4.0.1). Solamente dos de los individuos tuvieron longitudes de la concha mayores de 6 cm, la mayoría fueron menor a 3 cm de largo. 
 
 ```{r,include=FALSE}
-cambute_bruto <- read.delim("./cambute_bruto.csv", sep=";",header = TRUE)
+cambute_bruto <- read.delim("cambute_bruto.csv", sep=";",header = TRUE)
 ```
 
 ```{r, fig.cap=' Longitud de individuos juveniles de L. galeatus por cuadrante.Un círculo representa un individuo'}
