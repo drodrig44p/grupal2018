@@ -154,15 +154,9 @@ Se realizaron tres consultas con los valores de longitud para los juveniles, sub
 
 ### Estimación de abundancia
 
-El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "generalized multinomial N-mixture model" (gmultmix), basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron; esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, para obtener la probabilidad de existencia en los sitios de muestreo de las clases obtenidas. La función utilizada fue:
+El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "generalized multinomial N-mixture model" (gmultmix), basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron; esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, para obtener la probabilidad de existencia en los sitios de muestreo de las clases obtenidas.
 
-```{r}
-umf1 <- unmarkedFrameGMM(y = juvenil,
-                         numPrimary = 1,
-                         type = "removal")
-```
-
-En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.05}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
 
 \FloatBarrier <!----------------------------------------------------------------------------------------->
 
