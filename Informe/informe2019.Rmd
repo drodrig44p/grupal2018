@@ -132,19 +132,19 @@ Para el almacenamiento de los datos se creó una base datos relacional mediante 
 
 Cuadro 1. Descripción de las variables de los cuadros en la base de datos.
 
-|: Cuadro :|: Variable :|: Tipo de dato :|: Descripción :|
-|---|---|---|---|
-|: Principal :|: Fecha Inicio :|: Fecha :|: La fecha de inicio de la campaña de muestreo :| 
-| |: Fecha Final :|: Fecha :|: La fecha de inicio de la campaña de muestreo :|
-| |: ID :|: Número Entero :|: Identificador general para toda la campaña de muestreo (**unión**) :|
-|: Cuadrante :|: Cuadrante :| Número Entero :|: Número de cuadrante :|
-| |: Estampa de Tiempo :|: timestamp :|: Fecha y hora en formato UNIX :|
-| |: Main ID :|: Número Entero :|: Identificador general para toda la campaña de muestreo (**unión**) :|
-| |: ID :|: Número Entero :|: Identificador automático de cada entrada de cuadrante :| 
-|: Longitud :|: ID :|: Número Entero :|: Identificador automático de cada entrada de longitud :|
-| |:ID de Cuadrante :|: Número Entero :|: Número de cuadrante (**unión**) :|
-| |: Longitud Total :|: Número Natural :|: Medida de la longitud total de la concha de los *L. galeatus* encontrados :|
-| |:Remoción :|: Número Entero :|: Número de remoción por cuadrante :|
+|Cuadro|Variable|Tipo de dato|Descripción|
+|:------------:|:------------:|:------------:|:-----------------------------------------------------:|
+| Principal | Fecha Inicio | Fecha | La fecha de inicio de la campaña de muestreo | 
+| | Fecha Final | Fecha | La fecha de inicio de la campaña de muestreo |
+| | ID | Número Entero | Identificador general para toda la campaña de muestreo (**unión**) |
+| Cuadrante | Cuadrante | Número Entero | Número de cuadrante |
+| | Estampa de Tiempo | timestamp | Fecha y hora en formato UNIX |
+| | Main ID | Número Entero | Identificador general para toda la campaña de muestreo (**unión**) |
+| | ID | Número Entero | Identificador automático de cada entrada de cuadrante | 
+| Longitud | ID | Número Entero | Identificador automático de cada entrada de longitud |
+| |ID de Cuadrante | Número Entero | Número de cuadrante (**unión**) |
+| | Longitud Total | Número Natural | Medida de la longitud total de la concha de los *L. galeatus* encontrados |
+| |Remoción | Número Entero | Número de remoción por cuadrante |
 
 Los datos se ingresaron mediante un formulario desarrollado para tal efecto, donde la integración entre los cuadros estaba dada entre la identificación del cuadro principal, en el primer cuadro, y la identificación del cuadrante en el segundo cuadro; la siguiente relación estaba dada entre la casilla del cuadrante, del segundo cuadro, y la casilla de la longitud total del tercer cuadro.
 
