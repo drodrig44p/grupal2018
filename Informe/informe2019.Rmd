@@ -163,22 +163,21 @@ En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el mé
 
 # Resultados
 
-En los 9 cuadrantes muestreados, se encontraron 42 individuos de la especie *Lobatus galeatus* en la zona rocosa intermareal muestreada, en cuadro de los cuadrantes se encontró por lo menos 1 cambute, siendo el máximo registro en el cuadrante 8 con 10 individuos. Todos fueron categorizados como juveniles (< 15 cm  (Figura \@ref(fig:tallas)). Solamente dos de los individuos tuvieron longitudes de la concha mayores de 6 cm, la mayoría fueron menor a 3 cm de largo. 
+Los 65 individuos de *L. galeatus* encontrados en la zona intermareal fueron juveniles. De ellos, la mayoría tuvieron longitudes de concha menores a 1 cm y entre 2 y 3 cm. Solamente 5 indivuduos tuvieron longitudes mayores a 5 cm (Figura 1). 
 
 ```{r,include=FALSE}
 cambute_bruto <- read.delim("cambute_bruto.csv", sep=";",header = TRUE)
 ```
 
-```{r tallas, fig.cap=' Longitud de individuos juveniles de L. galeatus por cuadrante.Un círculo representa un individuo'}
-ggplot(data = cambute_bruto , aes(group= Cuadrante, x = as.character(Cuadrante)  , y = longitud.total, fill=Cuadrante ))+ geom_boxplot()+ geom_dotplot(binaxis = "y",
-stackdir = "center",alpha=0.7)+ theme_classic()+ labs(x = "Cuadrante", y = "Longitud de la concha (cm)")
-```
 
-En cada cuadrante, se encontraron menos individuos en la remoción 3 comparada con la  remoción 1 (Figura \@ref(fig:remociones)). 
-
-```{r remociones, fig.cap='presencia de individuos juveniles de L. galeatus por remoción'}
-ggplot(data = cambute_bruto , aes(x = Remocion)) +  geom_bar(fill="salmon")+ theme_classic(
-)
+```{r, fig.cap=' Longitud de individuos juveniles de L. galeatus '}
+histogramacambute<-ggplot(data=cambute_bruto, aes(x=longitud.total))+
+  geom_histogram(breaks=seq(0,7, by=0.25), 
+                 col="red", 
+                 aes(fill=..count..)) +
+  scale_fill_gradient("Count", low="green", high="red")+
+  theme_classic()+labs(x="Longitud de cambute(cm)", y="Conteo")
+histogramacambute
 ```
 
 ```{r,include=FALSE}
@@ -194,15 +193,20 @@ m1 <- gmultmix(lambdaformula = ~1,~1, ~1,data = umf1, se= T,K=30)
 re <- ranef(m1)
 ```
 
-El análisis de remoción mostró que Para la zona intermareal de la playa Punta Mala, se estiman 5.72 (S.E= 1.186) individuos por cuadrante, con una probabilidad de detección  de 43 % (S.E= 0.116). 
+El análisis de remoción mostró que Para la zona intermareal de la playa Punta Mala, se estiman 5.72 (S.E= 1.186) individuos por cuadrante, con una probabilidad de detección  de 43 % (S.E= 0.116) (Cuadro 2). 
 
-```{r, echo=FALSE}
+```{r, include=FALSE}
 backTransform(m1, type="lambda") # Individuals per plot
 #Erri backTransform(m1, type="phi") # Probability of being avilable
 backTransform(m1, type="det") # Probability of detection
 ```
+Cuadro 2. Estimación de la abundancia y la probabilidad de detección de *Lobatus galeatus* en la zona intermareal de Punta Mala. 
 
-\FloatBarrier
+Criterio|Estimado|SE|LinComb
+--------|--------|--|------
+Individuos por cuadrante|5.721|1.186|1.744
+Probablidad de deteccion|0.43|0.116|-0.278
+
 
 # Bibliografía {-}
 
