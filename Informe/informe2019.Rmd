@@ -7,7 +7,7 @@ subtitle: "Ecología de Poblaciones"
 date: "`r format(Sys.Date(), '%d de %B, %Y')`"
 papersize: letter
 fontsize: 12pt
-documentclass: report
+documentclass: article
 classoption: twoside, openright
 lang: "es-419"
 secnumdepth: 1
@@ -81,7 +81,7 @@ Las áreas protegidas son sitios importantes para la conservación y protección
 
 ## Biología de *Lobatus galeatus*
 
-El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@Arroyo-Mora1998].
+El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@Arroyo-Mora1998].
 
 En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular [@Arroyo-Mora1998].
 
@@ -103,7 +103,6 @@ Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juven
 
 El objetivo de este trabajo es estimar densidad poblacional de *Lobatus galeatus* en el Refugio Nacional de Vida Silvestre Punta Mala, Costa Rica.
 
-<!----------------------------------------------------------------------------------------->
 
 # Metodología
 
@@ -119,13 +118,12 @@ El estudio se realizó en una de las plataformas rocosa que se encuentra dentro 
 
 Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
 
-En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador (pie de rey), \SI{+- ~~0.005~~ 0.05}{\milli\metre}), una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida, para eliminar la posibilidad de reconteo. 
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador (pie de rey), \SI{+-0.05}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida, para eliminar la posibilidad de reconteo. 
 
-Para caracterizar  a cada individuo se utilizó las medidas descritas por @Arroyo-Mora1998, donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\mi{\milli\metre), subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado, y a partir de los datos obtenidos se construyó una tabla de vida.
+Para caracterizar  a cada individuo se utilizó las medidas descritas por @Arroyo-Mora1998, donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado, y a partir de los datos obtenidos se construyó una tabla de vida.
 
 ## Elaboración del sistema de gestión de datos
 
-<!--por qué los recolectamos-->
 Con miras a realizar un proceso de monitoreo de las poblaciones de *Lobatus galeatus* se desarrolló un sistema de gestión de datos que permita realizar una mejor administración de los datos colectados en campo, su resguardo y su posterior procesamiento. El monitoreo de esta especie permitirá a los administradores del RNVS Playa Hermosa-Punta Mala conocer en qué medida está contribuyendo el área silvestre protegida a la conservación y protección del cambute del Pacífico.
 
 Para el almacenamiento de los datos se creó una base datos relacional mediante la utilización del programa LibreOffice Base (versión 5.2.7.2) basada en el sistema de Base de Datos HyperSQL (HSQLDB). En su construcción, se elaboraron tres cuadros de datos. La primera que contiene datos sobre la fecha en la que se desarrolló la gira; la segunda, conserva información sobre los cuadrantes muestreados así como su fecha y hora de muestreo, y por último, la tercera posee información sobre las remociones realizadas y las tallas de los individuos colectados (Cuadro 1).
@@ -158,7 +156,7 @@ El análisis de los datos recolectados, se realizó con el paquete de R, denomin
 
 En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.05}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
 
-\FloatBarrier <!----------------------------------------------------------------------------------------->
+\FloatBarrier 
 
 # Resultados
 
