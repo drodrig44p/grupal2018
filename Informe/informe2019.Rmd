@@ -168,6 +168,18 @@ backTransform(m1, type="det") # Probability of detection
 ```
 
 
+```{r, echo=FALSE}
+backTransform(m1, type="lambda") # Individuals per plot
+#Erri backTransform(m1, type="phi") # Probability of being avilable
+backTransform(m1, type="det") # Probability of detection
+```
+
+
+```{r, fig.cap=' Longitud de individuos juveniles de L. galeatus '}
+histogramacambute<-ggplot(data=cambute_bruto, aes(`longitud total`))+geom_histogram(binwidth = 0.25, fill="turquoise")+theme_classic()+labs(x="Longitud de cambute(cm)", y="Conteo")
+histogramacambute
+```
+
 \FloatBarrier
 
 
