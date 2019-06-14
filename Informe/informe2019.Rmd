@@ -81,23 +81,23 @@ Las áreas protegidas son sitios importantes para la conservación y protección
 
 ## Biología de *Lobatus galeatus*
 
-El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} (Mora, D. A, 1998).
+El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@Arroyo-Mora1998].
 
-En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular (Mora, D. A, 1998).
+En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular [@Arroyo-Mora1998].
 
-Con respecto al ciclo de vida de la especie, según (Vega & Pérez,  2003) el cambute alcanza 100 mm de longitud durante el primer año, posterior al asentamiento larvario. Después los individuos invierten aproximadamente un año para llegar hasta los 180 mm, talla con la que son capaces de reproducirse, con una tasa de crecimiento mayor en las tallas menores. En palabras sencillas, los individuos pueden alcanzar la edad reproductiva a los dos años.
+Con respecto al ciclo de vida de la especie, según [@vega2003crecimiento] el cambute alcanza 100 mm de longitud durante el primer año, posterior al asentamiento larvario. Después los individuos invierten aproximadamente un año para llegar hasta los 180 mm, talla con la que son capaces de reproducirse, con una tasa de crecimiento mayor en las tallas menores. En palabras sencillas, los individuos pueden alcanzar la edad reproductiva a los dos años.
 
-Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cada desove. Esta variación en la cantidad de huevos puestos por cada hembra, se debe al efecto que ciertas condiciones ambientales generan sobre ellas, como por ejemplo: la temperatura y la disponibilidad de alimento. Cada hembra puede poner entre 8 y 9 masas de huevos  en cada temporada reproductiva (Robertson, 1959). 
+Una sola hembra puede ovopositar entre \num{185000} y \num{460000} huevos en cada desove. Esta variación en la cantidad de huevos puestos por cada hembra, se debe al efecto que ciertas condiciones ambientales generan sobre ellas, como por ejemplo: la temperatura y la disponibilidad de alimento. Cada hembra puede poner entre 8 y 9 masas de huevos  en cada temporada reproductiva [@robertson1959]. 
 
-Los individuos  han sido extraídos por las personas que habitan cerca de las costas, ya sea manualmente o por buceo a pulmón, con el fin de consumirlo. La especie se ha visto afectada por un incremento en la demanda local y turística, tornando su uso a un nivel comercial. Debido a esto y al largo tiempo para alcanzar la edad reproductiva, la densidad de la población ha decrecido e incluso ha desaparecido de algunas zonas específicas. Como consecuencia, actualmente existe una prohibición de captura y comercialización de esta especie dentro de Costa Rica (Arroyo-Mora, 2008).
+Los individuos  han sido extraídos por las personas que habitan cerca de las costas, ya sea manualmente o por buceo a pulmón, con el fin de consumirlo. La especie se ha visto afectada por un incremento en la demanda local y turística, tornando su uso a un nivel comercial. Debido a esto y al largo tiempo para alcanzar la edad reproductiva, la densidad de la población ha decrecido e incluso ha desaparecido de algunas zonas específicas. Como consecuencia, actualmente existe una prohibición de captura y comercialización de esta especie dentro de Costa Rica [@arroyo2008caracteristicas].
 
-Las  poblaciones de *Lobatus galeatus* en lugares como: Panamá, Mexico, Ecuador y otros lugares del Pacífico muestran una baja tasa de crecimiento en los últimos años. Esta situación se relaciona con la explotación masiva sin regulaciones provocada por el ser humano para el consumo de este molusco (Castellanos-Galindo, *et* al, 2011). Los modelos de crecimiento en esta especie son utilizados en muchos para establecer políticas que regulen la extracción y comercialización. Por ejemplo, en Panamá han detectado que cinco años después de haber prohibido la extracción de cambute, la población aun no muestra una tendencia al aumento, a pesar de encontrar principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
+Las  poblaciones de *Lobatus galeatus* en lugares como: Panamá, Mexico, Ecuador y otros lugares del Pacífico muestran una baja tasa de crecimiento en los últimos años. Esta situación se relaciona con la explotación masiva sin regulaciones provocada por el ser humano para el consumo de este molusco [@Castellanos-Galindo2011]. Los modelos de crecimiento en esta especie son utilizados en muchos para establecer políticas que regulen la extracción y comercialización. Por ejemplo, en Panamá han detectado que cinco años después de haber prohibido la extracción de cambute, la población aun no muestra una tendencia al aumento, a pesar de encontrar principalmente individuos adultos [@Cipriani2008].
 
 ## Dinámica de poblaciones de *Lobatus galeatus*
 
-Los modelos de crecimiento en esta especie son utilizados en muchos estudios con el fin de determinar si la población se encuentra en declive o en aumento, después de que se prohíbe o se permite la extracción comercial de este caracol. Tal es el caso de una investigación realizada en Panamá donde detectan que cinco años después de haber prohibido la pesca de cambute, la población de estos en Las Perlas y Coiba Archipelagos no se encuentra en aumento, encontrando principalmente individuos adultos (Cipriani, Guzman, Vega, & Lopez, 2008).
+Los modelos de crecimiento en esta especie son utilizados en muchos estudios con el fin de determinar si la población se encuentra en declive o en aumento, después de que se prohíbe o se permite la extracción comercial de este caracol. Tal es el caso de una investigación realizada en Panamá donde detectan que cinco años después de haber prohibido la pesca de cambute, la población de estos en Las Perlas y Coiba Archipelagos no se encuentra en aumento, encontrando principalmente individuos adultos [@Cipriani2008].
 
-Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito (Cipriani, Guzman, Vega, & Lopez, 2008). 
+Otro estudio adapta un modelo de crecimiento de Von Bertalanffy a datos de juveniles, utilizando los siguientes parámetros: $L_\infty = \SI{315}{\milli\metre}\ , K = \SI{0.029}{\per\text{mo}}\ , \text{y } t_0 = \SI{0.5}{\text{mo}}$. En el mismo se llegó a observar que la apariencia de un labio delgado es considerado un criterio pobre para la madurez sexual y entre mayor sea este, es recomendado para lograr la protección de las poblaciones bajo una fuerte presión de pesca, permitiendo que las poblaciones de *L. galeatus* puedan restablecerse con éxito [@Cipriani2008]. 
 
 ## Objetivo
 
@@ -106,48 +106,59 @@ El objetivo de este trabajo es estimar densidad poblacional de *Lobatus galeatus
 
 # Metodología
 
-## Estimación de abundancia y Análisis de Viabilidad de Población
-
-## Estimación de abundancia
-
-## Elaboración del sistema de gestión de datos.
-
-Con miras a realizar un proceso de monitoreo de las poblaciones de *Strombus galeatus* se desarrolló un sistema de gestión de datos que permita realizar una mejor administración de los datos colectados en campo, su resguardo y su posterior procesamiento. El monitoreo de esta especie permitirá a los administradores del RNVS Playa Hermosa-Punta Mala conocer en qué medida está contribuyendo el área silvestre protegida a la conservación y protección del cambute del pacífico.
-
-Para el almacenamiento de los datos se creó una base datos relacional mediante la utilización del programa LibreOffice Base (versión 5.2.7.2). En su construcción, se elaboraron tres tablas de datos. La primera que contiene datos sobre la fecha en la que se desarrolló la gira; la segunda, conserva información sobre los cuadrantes muestreados así como su fecha y hora de muestreo, y por último, la tercera posee información sobre las remociones realizadas y las tallas de los individuos colectados.
-
-Los datos se ingresaron mediante un formulario desarrollado para tal efecto, donde la integración entre las tablas estaba dada entre la identificación de la tabla principal, en la primera tabla, y la identificación del cuadrante en la segunda tabla; la siguiente relación estaba dada entre la casilla del cuadrante, de la segunda tabla, y la casilla de la longitud total de la tercer tabla.
-
-Se realizaron tres consultas, una con los valores de longitud para los juveniles, sub adultos y adultos, el resultado de estas consultas se adecuó a para los requerimientos del paquete estadístico mediante una tabla dinámica el LibreOffice Calc, los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales con los datos de las columnas hicieran referencia a las remociones y los datos de las filas a las unidades de muestreo.
-
 ## Área de estudio
 
 Se visitó el sitio de muestreo del cambute, los días del 15 al 17 de marzo de 2019; el área de estudio se encuentra en el Refugio Nacional de Vida Silvestre Playa Hermosa – Punta Mala, este refugio nacional de vida silvestre pertenece al Área de Conservación Pacífico Central, se encuentra ubicado específicamente en el cantón de Garabito en la provincia de Puntarenas, coordenadas geográficas: 9°31’04’’N y 84°32’25’’W, además cuenta con una precipitación de 3 780 mm al año y una temperatura máxima de 31°C y una mínima de  de 23°C [@alvarado2007migracion]; [@vargas2014relacion].
-
-## Área de estudio
 
 El Refugio Nacional de Vida Silvestre se crea mediante el mediante Decreto Ejecutivo N° 27210, del 16 de abril de 1998, y por medio del decreto N° 33044, del 03 de mayo del 2002 se amplía el área del refugio. Además, cuenta con diversidad de ecosistemas, cómo lo son: desembocadura de río, manglares, esteros, estuarios entre muchos otros [@herrera2010propuesta].
 
 El estudio se realizó en una de las plataformas rocosa que se encuentra dentro del Refigio Nacional de Vida Silvestre, estas plataformas se extiende en dirección al océano, formando un área de aproximadamente 4 km de largo, esta zona rocosa alberga diferentes formas de vida como lo son los moluscos [@azofeifa2018influencia]. 
 
-## Muestreo de Lobatus galeatus
+## Muestreo de *Lobatus galeatus*
 
 Se realizaron tres parcelas sistemáticamente de 10 x 10 metros, en la zona intermareal durante la marea baja, específicamente en aquellos sitios donde se formaban pozas. Cada cuadrante fue georreferenciado por medio de GPS.
 
-En cada parcela se hizo una búsqueda intensiva de L. galeatus mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.005}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador (pie de rey), \SI{+-0.05}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida, para eliminar la posibilidad de reconteo. 
 
-Para caracterizar  a cada individuo se utilizó las medidas descritas por Arroyo-Mora (1998), donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado y a partir de los datos obtenidos se construyó una tabla de vida.
- 
-### Análisis de datos
+Para caracterizar  a cada individuo se utilizó las medidas descritas por @Arroyo-Mora1998, donde se asigna una clase según la edad, para los juveniles corresponde a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y adultos superior a los \SI{170}{\milli\metre}. Se clasificó cada organismo recolectado, y a partir de los datos obtenidos se construyó una tabla de vida.
 
+## Elaboración del sistema de gestión de datos
 
-Para el análisis de los datos recolectados, se utilizó el paquete de R, denominado "unmarked", es un modelo que se utiliza para animales no marcados y de abundancia. Así mismo, se utilizó la función "gmultmix generalized multinomial N-mixture model", basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron. Además esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, es decir para obtener la probabilidad  de existencia en los sitios de muestreo de las clases obtenidas.
+Con miras a realizar un proceso de monitoreo de las poblaciones de *Lobatus galeatus* se desarrolló un sistema de gestión de datos que permita realizar una mejor administración de los datos colectados en campo, su resguardo y su posterior procesamiento. El monitoreo de esta especie permitirá a los administradores del RNVS Playa Hermosa-Punta Mala conocer en qué medida está contribuyendo el área silvestre protegida a la conservación y protección del cambute del Pacífico.
 
-\FloatBarrier
+Para el almacenamiento de los datos se creó una base datos relacional mediante la utilización del programa LibreOffice Base (versión 5.2.7.2) basada en el sistema de Base de Datos HyperSQL (HSQLDB). En su construcción, se elaboraron tres cuadros de datos. La primera que contiene datos sobre la fecha en la que se desarrolló la gira; la segunda, conserva información sobre los cuadrantes muestreados así como su fecha y hora de muestreo, y por último, la tercera posee información sobre las remociones realizadas y las tallas de los individuos colectados (Cuadro 1).
+
+Cuadro 1. Descripción de las variables de los cuadros en la base de datos.
+
+|Cuadro|Variable|Tipo de dato|Descripción|
+|:------------:|:------------:|:------------:|:-----------------------------------------------------:|
+| Principal | Fecha Inicio | Fecha | La fecha de inicio de la campaña de muestreo | 
+| | Fecha Final | Fecha | La fecha de inicio de la campaña de muestreo |
+| | ID | Número Entero | Identificador general para toda la campaña de muestreo (**unión**) |
+| Cuadrante | Cuadrante | Número Entero | Número de cuadrante |
+| | Estampa de Tiempo | timestamp | Fecha y hora en formato UNIX |
+| | Main ID | Número Entero | Identificador general para toda la campaña de muestreo (**unión**) |
+| | ID | Número Entero | Identificador automático de cada entrada de cuadrante | 
+| Longitud | ID | Número Entero | Identificador automático de cada entrada de longitud |
+| |ID de Cuadrante | Número Entero | Número de cuadrante (**unión**) |
+| | Longitud Total | Número Natural | Medida de la longitud total de la concha de los *L. galeatus* encontrados |
+| |Remoción | Número Entero | Número de remoción por cuadrante |
+
+Los datos se ingresaron mediante un formulario desarrollado para tal efecto, donde la integración entre los cuadros estaba dada entre la identificación del cuadro principal, en el primer cuadro, y la identificación del cuadrante en el segundo cuadro; la siguiente relación estaba dada entre la casilla del cuadrante, del segundo cuadro, y la casilla de la longitud total del tercer cuadro.
+
+Se realizaron tres consultas con los valores de longitud para los juveniles, sub adultos y adultos. Dicha clasificación se realizó según las medidas descritas por @Arroyo-Mora1998 en la cual se asignó una clase de edad según la longitud total;  los juveniles correspondieron a una longitud inferior a \SI{150}{\milli\metre}, subadultos entre \SIrange{150}{170}{\milli\metre} y los adultos superior a los \SI{170}{\milli\metre}. El resultado de estas consultas se adecuó a los requerimientos del paquete estadístico "unmarked" de R, mediante una tabla dinámica en LibreOffice Calc (versión 5.2.7.2), los datos fueron agrupados de tal manera que se pudiese obtener una matriz de números naturales; las columnas hicieron referencia a las remociones y las filas a las unidades de muestreo. Con la tabla dinámica se creó una hoja de datos con formato de valores separados por comas (csv) para facilitar su importación para el análisis.
+
+## Análisis de datos
+
+### Estimación de abundancia
+
+El análisis de los datos recolectados, se realizó con el paquete de R, denominado "unmarked", es un modelo que se utiliza para estimaciones de abundancia de animales no marcados. Así mismo, se utilizó la función "generalized multinomial N-mixture model" (gmultmix), basándose en la opción de remoción (Removal) y variando la función de acuerdo a los datos que se obtuvieron; esta función, toma en cuenta las características de abundancia, disponibilidad y probabilidad de detección, para obtener la probabilidad de existencia en los sitios de muestreo de las clases obtenidas.
+
+En cada parcela se hizo una búsqueda intensiva de *L. galeatus* mediante el método de barrido, este consistió en hacer tres remociones en la parcela, con una duración de 20 min cada una. Solo los individuos vivos fueron recolectados, con el fin de medir el largo total de la concha, esta medida se obtuvo con un calibrador, \SI{+-0.05}{\milli\metre}, una vez medidos se depositaron a una distancia no menor de diez metros de la parcela medida. 
+
+\FloatBarrier 
 
 # Resultados
-
-\FloatBarrier
 
 En los 9 cuadrantes muestreados, se encontraron 42 individuos de la especie *Lobatus galeatus* en la zona rocosa intermareal muestreada, en cuadro de los cuadrantes se encontró por lo menos 1 cambute, siendo el máximo registro en el cuadrante 8 con 10 individuos. Todos fueron categorizados como juveniles (< 15 cm  (Figura 4.0.1). Solamente dos de los individuos tuvieron longitudes de la concha mayores de 6 cm, la mayoría fueron menor a 3 cm de largo. 
 
@@ -159,7 +170,6 @@ cambute_bruto <- read.delim("cambute_bruto.csv", sep=";",header = TRUE)
 ggplot(data = cambute_bruto , aes(group= Cuadrante, x = as.character(Cuadrante)  , y = longitud.total, fill=Cuadrante ))+ geom_boxplot()+ geom_dotplot(binaxis = "y",
 stackdir = "center",alpha=0.7)+ theme_classic()+ labs(x = "Cuadrante", y = "Longitud de la concha (cm)")
 ```
-
 En cada cuadrante, se encontraron menos individuos en la remoción 3 comparada con la  remoción 1 (Figura 4.0.2). 
 
 ```{r, fig.cap='presencia de individuos juveniles de L. galeatus por remoción'}
@@ -187,7 +197,6 @@ backTransform(m1, type="lambda") # Individuals per plot
 #Erri backTransform(m1, type="phi") # Probability of being avilable
 backTransform(m1, type="det") # Probability of detection
 ```
-
 
 \FloatBarrier
 
