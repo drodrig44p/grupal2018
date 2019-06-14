@@ -102,9 +102,9 @@ Las áreas protegidas son sitios importantes para la conservación y protección
 
 ## Biología de *Lobatus galeatus*
 
-El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastropodos (Castro-Mondragón, *et* al, 2016). En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@Arroyo-Mora1998].
+El cambute *Lobatus galeatus* es una especie que pertenece a la familia Stromboidea, del orden Sorbeoconcha, y la clase de los Gastrópodos [@castro2016diversidad]. En la costa del Pacífico americano, los caracoles del género *Lobatus*, mejor conocidos como cambute, se distribuyen desde el Golfo de México hasta las islas Galápagos. En Costa Rica es posible hallar estos caracoles a lo largo de toda la costa, principalmente en zonas rocosas y poco profundas.  En el sector San Miguel del Refugio Nacional de Vida Silvestre Cabo Blanco, se estimó la población de *Lobatus galeatus* en 627 individuos, donde el adulto con mayor peso alcanzó  \SI{2 775}{\gram} y el juvenil más pequeño pesó \SI{50}{\gram}. A nivel etario es posible separar los individuos de cambute en tres clases de edades (adultos, subadultos y juveniles), de acuerdo con la biometría de su concha (largo, ancho y grosor del labio). Por ejemplo, se estima que el largo medio de la concha de los adultos es de \SI{183.2(95)}{\milli\metre}, mientras que el ancho medio de la concha es de \SI{146.5(111)}{\milli\metre} [@mora1998crecimiento].
 
-En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular [@Arroyo-Mora1998].
+En general, la ecología de la especie presenta las siguientes características. El principal recurso alimenticio de Lobatus galeatus proviene de las macroalgas que crecen sobre la superficie rocosa. Presentan poco actividad, pero ante una amenaza, atacan con el opérculo y hacen movimientos con el pie. Con lo que respecta al comportamiento reproductivo, estos se reúnen en pequeños grupos donde solo hay una hembra, se reproducen durante todo el año, pero existe una tendencia marcada hacia finales de año y meses con temperaturas elevadas. Las hembras desovan un filamento que contienen los huevos, posteriormente lo tapan con arena y pequeñas conchas. Por otro lado, los estadíos juveniles son más propensos a permanecer en profundidades bajas y a medida que el caracol crece, algunas algas, esponjas y otros moluscos se adhieren a la concha, dándoles al mismo un camuflaje particular [@mora1998crecimiento].
 
 Con respecto al ciclo de vida de la especie, según [@vega2003crecimiento] el cambute alcanza 100 mm de longitud durante el primer año, posterior al asentamiento larvario. Después los individuos invierten aproximadamente un año para llegar hasta los 180 mm, talla con la que son capaces de reproducirse, con una tasa de crecimiento mayor en las tallas menores. En palabras sencillas, los individuos pueden alcanzar la edad reproductiva a los dos años.
 
@@ -227,22 +227,7 @@ backTransform(m1, type="det") # Probability of detection
 
 # Bibliografía {-}
 
-Arroyo-Mora, D. (2008). Características poblacionales del cambute, Strombus galeatus (Gastropoda: Strombidae) en el Parque Marino Ballena, Pacífico, Costa Rica (1999-2003). Revista de Biología Tropical, 56(4), 113-124.
-
-Castellanos-Galindo, G. A., Cantera, J. R., Espinosa, S., & Mej&#39;ia-Ladino, L. M. (2011). Use of local ecological knowledge, scientist&#39;s observations and grey literature to assess marine species at risk in a tropical eastern Paci􀏐ic estuary. Aquatic Conservation: Marine and Freshwater Ecosystems, 21(1), 37–48. https://doi.org/10.1002/aqc.1163 
-
-Castro-Mondragón, H., Flores-Garza, R., Valdez-González, A., Flores-Rodríguez, P., García-Ibáñez, S., & Rosas-Acevedo, J. L. (2016). Diversidad, especies de mayor importancia y composición de tallas de los moluscos en la pesca ribereña en Acapulco, Guerrero, México. Acta universitaria, 26(6), 24-34
-
-Cipriani, R., Guzman, H. M., Vega, A. J., & Lopez, M. (2008). Population Assessment of the Conch Strombus galeatus (Gastropoda, Strombidae) in Paci􀏐ic Panama. Journal of Shell􀏔ish Research, 27(4), 889–896. https://doi.org/10.2983/07308000(2008)27[889:PAOTCS]2.0.CO;2
-
-Mora, D. A. (1998). Crecimiento y reproducción de Strombus galeatus (Gastropoda: Strombidae) en el Pacífico de Costa Rica. Revista de biología tropical, 27-36. .
-
-Paniagua, G. (2015). Dinamica costera y ecología de comunidades macrobentónicas intermareales de Pehuen CO, provincia de Buenos Aires. Tesina de licenciatura. Universidad Nacional del Sur. Argentina.
-
-Peña, C. (2011). Estructura de las comunidad desde el intermareal rocoso asociadas al mejillón Mytilus californianus en la costa oeste de Baja California. Tesis para Maestría. Universidad Autónoma de Baja California. México.
-
-Salas, E.; E. Ross Salazar & A. Arias (Eds.). 2012. Diagnóstico de áreas marinas protegidas y áreas marinas para la pesca responsable en el Pacífico costarricense. Fundación MarViva. San José, Costa Rica. 174 pp.
-
-Robertson, R. (1959). Observations on the spawn and veligers of conchs (strombus) in the bahamas. Journal of Molluscan Studies, 33(4), 164–171.
-
-Vega, A. J., & Pérez, F. (2003). Crecimiento del Cambute, Strombus galeatus (Gastropoda: Strombidae) en el Parque Nacional Coiba, Pacífico Panameno. Tecnociencias, 5, 77-89
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
